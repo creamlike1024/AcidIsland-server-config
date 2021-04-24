@@ -15,7 +15,7 @@ kits:
   glass:
     delay: -1
     items:
-      - grass 1 name:&4"草" lore:"一种植物"
+      - grass 1 name:&4[草] lore:|一种植物|
   tools:
     delay: 10
     items:
