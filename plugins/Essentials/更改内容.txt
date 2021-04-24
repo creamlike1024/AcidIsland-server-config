@@ -25,8 +25,8 @@ Ln 461 afk-list-name: "{USERNAME}(AFK)"
 修改挂机的玩家list显示名字
 Ln 484 send-info-after-death: true
 发送死亡协助信息
-Ln 494 custom-join-message: "{USERNAME}来了"
-Ln 495 custom-quit-message: "{USERNAME}不玩了"
+Ln 494 custom-join-message: "{USERNAME}进♂来♂了"
+Ln 495 custom-quit-message: "{USERNAME}出♂去♂了"
 自定义加入和退出游戏时的提示信息
 Ln 533 register-back-in-listener: true
 让ess记录最后一次/back坐标
