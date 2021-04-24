@@ -6,6 +6,8 @@ world_the_end
 .console_history
 plugins/*.jar
 plugins/bStats
+plugins/Essentials/userdata
+plugins/Essentials/warps
 *.jar
 banned-ips.json
 banned-players.json
