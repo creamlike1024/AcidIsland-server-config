@@ -1,0 +1,51 @@
+#config.yml
+Ln 30 nickname-prefix: '|'
+nick和name之间的分隔符
+Ln43 ignore-colors-in-max-nick-length: true
+颜色标识符不计入名字长度
+Ln91 teleport-cooldown: 5
+传送cd时间
+Ln94 teleport-delay: 3
+传送等待时间
+Ln 98 teleport-invulnerability: 2
+传送后的无敌时间
+Ln 142 drop-items-if-full: true
+背包满时给予物品掉在地上而不是直接吞掉
+Ln 318 use-bukkit-permissions: false
+使用essx内建权限替代bukkit原生权限
+Ln 322 skip-used-one-time-kits-from-kit-list: true
+只能使用一次性kit
+Ln 336~355
+开启木牌功能：color, balance, buy, sell, trade, warp, mail
+Ln 417 locale: zh
+修改显示语言为中文
+Ln 420 remove-god-on-disconnect: true
+玩家退出时清除上帝模式
+Ln 461 afk-list-name: "{USERNAME}(AFK)"
+修改挂机的玩家list显示名字
+Ln 484 send-info-after-death: true
+发送死亡协助信息
+Ln 494 custom-join-message: "{USERNAME}来了"
+Ln 495 custom-quit-message: "{USERNAME}不玩了"
+自定义加入和退出游戏时的提示信息
+Ln 533 register-back-in-listener: true
+让ess记录最后一次/back坐标
+Ln 627 tpa-accept-cancellation: 60
+tpa等待确认时间
+Ln 721 currency-symbol: '¥'
+金钱符号
+Ln 733 min-money: -10
+最低钱数（允许赊账限额）
+Ln 743 minimum-pay-amount: 0.01
+最少能转多少钱
+Ln 825~916
+保护全关了（pvp是开启的！）
+Ln 993     placement: 
+移除了不能放置岩浆和岩浆桶和tnt的限制
+Ln 996     usage: 
+移除不能使用岩浆桶的限制
+Ln 1021   announce-format: '&d欢迎 {DISPLAYNAME}&d 首次加入服务器！'
+新人加入服务器的欢迎信息
+Ln 1030     kit: ''
+新人啥东西也不给
+
