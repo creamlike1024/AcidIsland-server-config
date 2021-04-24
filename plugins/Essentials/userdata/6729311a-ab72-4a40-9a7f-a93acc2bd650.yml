@@ -1,21 +1,21 @@
 lastAccountName: IcedTangerine
 timestamps:
-  login: 1619265699367
-  logout: 1619265732579
-  lastteleport: 1619264878558
+  login: 1619274650389
+  logout: 1619274670609
+  lastteleport: 1619274667801
 ipAddress: 127.0.0.1
 lastlocation:
+  world: world
+  x: 78.57221924406906
+  y: 76.67180325122303
+  z: 283.0444152524026
+  yaw: -104.40822
+  pitch: 33.523792
+logoutlocation:
   world: world
   x: 96.5
   y: 69.0
   z: 240.5
-  yaw: 0.0
-  pitch: 0.0
-logoutlocation:
-  world: world
-  x: 83.58733817193689
-  y: 76.67180325122303
-  z: 280.37508472961713
-  yaw: 303.64404
-  pitch: 23.91505
+  yaw: 10.889921
+  pitch: 11.316977
 afk: false
