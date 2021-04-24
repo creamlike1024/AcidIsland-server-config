@@ -1,0 +1,17 @@
+cache
+logs
+world
+world_nether
+world_the_end
+.console_history
+plugins/*.jar
+plugins/bStats
+*.jar
+banned-ips.json
+banned-players.json
+eula.txt
+ops.json
+usercache.json
+version_history.json
+whitelist.json
+start.bat
