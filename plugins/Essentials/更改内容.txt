@@ -46,6 +46,6 @@ Ln 996     usage:
 移除不能使用岩浆桶的限制
 Ln 1021   announce-format: '&d欢迎 {DISPLAYNAME}&d 首次加入服务器！'
 新人加入服务器的欢迎信息
-Ln 1030     kit: ''
-新人啥东西也不给
+Ln 1030     kit: 'glass'
+新人给个草(一种植物)
 
