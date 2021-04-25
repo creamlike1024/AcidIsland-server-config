@@ -21,7 +21,7 @@ Ln 417 locale: zh
 修改显示语言为中文
 Ln 420 remove-god-on-disconnect: true
 玩家退出时清除上帝模式
-Ln 461 afk-list-name: "{USERNAME}(AFK)"
+Ln 461 afk-list-name: "{USERNAME}(挂机中)"
 修改挂机的玩家list显示名字
 Ln 484 send-info-after-death: true
 发送死亡协助信息
