@@ -458,7 +458,7 @@ sleep-ignores-afk-players: true
 # Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-afk-list-name: "{USERNAME}(AFK)"
+afk-list-name: "{USERNAME}(挂机中)"
 
 # When a player enters or exits AFK mode, should the AFK notification be broadcast
 # to the entire server, or just to the player?
