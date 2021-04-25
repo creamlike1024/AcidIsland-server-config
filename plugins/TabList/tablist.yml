@@ -44,14 +44,17 @@ random: false
 
 header:
 - "<lines>\n%anim:tablist%"
-- "&7<75> %anim:welcome% %player%&c!&7 <74>\n&6Ping:&r %ping%&7ms"
-- "&8<1>&7 Used ram, free, max:&e %server-ram-max%"
-- "%memory_bar%"
-- "  &e%server-ram-used%         %server-ram-free%"
+- "&7<75> %anim:welcome% %player%&c!&7 <74>\n&6Ping:&r %ping%&7ms\n"
+#- "&8<1>&7 Used ram, free, max:&e %server-ram-max%"
+#- "%memory_bar%"
+#- "  &e%server-ram-used%         %server-ram-free%"
 
 footer:
-- "<13>&e&l Players:&6 %online-players%&7/&6%max-players%"
-- "&7<28> %anim:website%&7:&2 &nexample.com&7 <28>\n<lines>"
+- "<13>&e&l Players:&6 %online-players%&7/&6%max-players%\n"
+- "&7<28> %anim:website%&7:&2 没有&7 <28>"
+- "&7<28> &eQQ群&7:&2 &n941305345&7 <28>\n<lines>"
+- "&7<28> &b今天是&7:&g %date%&7 <28>"
+- "&7<28> &5现在时间是&7:&6 %server-time%&7 <28>\n<lines>"
 
 # Defines per world tablist for different worlds
 # You can separate worlds with ", " to show tablist in that worlds

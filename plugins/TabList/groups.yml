@@ -22,6 +22,6 @@ groups:
     tabname: '%player%'
     suffix: ''
   op:
-    prefix: '&lop&r - '
+    prefix: '&7op&r - '
   island-player:
-    prefix: '&aisland-player&r - '
+    prefix: '&1island-player&r - '
