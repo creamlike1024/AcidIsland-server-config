@@ -1,0 +1,42 @@
+reload-config: '&aThe plugin successfully reloaded!'
+no-permission: '&cYou don''t have permission for that!&7 (%perm%)'
+unknown-sub-command: '&cUnknown sub-command&7 %subcmd%&c.'
+no-console: '&cThis command ''&7/%command%&c'' can only be in-game.'
+set-group:
+  meta-could-not-be-empty: '&cThe prefix text could not be empty!'
+  meta-set: '&aYou have set meta for&e %team%&a, with this:&r %meta%'
+  priority-must-be-number: '&cThe priority must be a number!'
+  not-found: '&cThis team&7 %team%&c not found.'
+  removed: '&cTeam with name&7 %team%&c removed.'
+toggle:
+  console-usage: '&cUse: &7/%command% toggle <player/all>'
+  enabled: '&aThe tab is successfully turned on!'
+  disabled: '&cThe tab is successfully turned off!'
+  no-player: '&cThere is no player available on the server.'
+  player-not-found: '&cThis player&7 %player%&c not found!'
+fake-player:
+  added: '&aThe fake player&7 %name%&a successfully added!'
+  removed: '&cThe fake player&7 %name%&c successfully removed!'
+  already-added: '&cThe fake player&7 %name%&c already added.'
+  not-exists: '&cThe fake player with this name not exists.'
+  no-fake-player: '&cThere is no fake player either.'
+  disabled: '&cThe fake player is disabled. Please enable in config.yml file.'
+  ping-can-not-be-less: '&cThe ping amount should be highest than&e %amount%&c or
+    the value is not a number.'
+  list:
+  - '&cFake players&7 (&e%amount%&7):'
+  - '&r%fake-players%'
+chat-messages:
+- '&7/%command% reload&6 - Reload the plugin.'
+- '&7/%command% toggle [player/all]&6 - Toggle on/off tab.'
+- '&7/%command% group/player <name> prefix <prefix>&6 - Sets the given group prefix.'
+- '&7/%command% group/player <name> suffix <suffix>&6 - Sets the given group suffix.'
+- '&7/%command% group/player <name> remove&6 - Removes the given group entirely.'
+- '&7/%command% fakeplayers add/remove <name>&6 - Create/remove fake player.'
+- '&7/%command% fakeplayers list&6 - Lists all fake player.'
+- '&7/%command% fakeplayers rename <oldName> <newName>&6 - Renames the given fake
+  player name to a new one.'
+- '&7/%command% fakeplayers setdisplayname <name> <displayName>&6 - Sets the display
+  name for the given fake player.'
+- '&7/%command% fakeplayers setskin <name> <skinUUID>&6 - Set skin for the fake player
+  from the given real uuid.'
