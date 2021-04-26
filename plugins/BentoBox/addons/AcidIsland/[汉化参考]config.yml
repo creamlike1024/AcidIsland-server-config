@@ -1,0 +1,456 @@
+# AcidIsland 1.13.1 配置文件
+acid:
+  command:
+    # 海岛主命令.
+    island: ai
+    # 海岛管理员指令.
+    admin: acid
+    # 新玩家执行主命令时的操作.
+    # 默认为 'create'.
+    # Added since 1.13.1.
+    new-player-action: create
+    # 玩家执行主命令时的操作.
+    # 默认为 'go'.
+    # Added since 1.13.1.
+    default-action: go
+  # 酸海是否可以腐蚀管理员
+  damage-op: true
+  # 酸水是否可以腐蚀鸡 - 推荐关闭，鸡比较喜欢游泳
+  damage-chickens: false
+  damage:
+    acid:
+      # 玩家在酸海中受到的伤害. 10 为生命值的一半. 设为 5 可以使游戏简单一些.
+      player: 10
+      # 酸海对怪物的伤害值. 有盔甲的怪物受到的伤害会减少.
+      monster: 5
+      # 动物在酸海中受到的伤害值
+      animal: 5
+      # 酸海中的物品在几秒后被腐蚀. 0 = 不腐蚀物品
+      item: 0
+    # 酸雨是否造成伤害.
+    rain: 1
+    # 酸雪是否造成伤害
+    snow: false
+    # 开始受到伤害的延迟
+    delay: 2
+    # 进入酸海后的药水效果.
+    # 可设置多个.
+    # 可用药水效果:
+    #    BLINDNESS
+    #    CONFUSION
+    #    HUNGER
+    #    POISON
+    #    SLOW
+    #    SLOW_DIGGING
+    #    WEAKNESS
+    effects:
+    - CONFUSION
+    - BLINDNESS
+    # 药水效果持续时间
+    # Added since 1.11.2.
+    acid-effect-duration: 30
+    # 酸雨/雪附加的药水效果.
+    # 可设多个.
+    # 可用药水效果:
+    #    BLINDNESS
+    #    CONFUSION
+    #    HUNGER
+    #    POISON
+    #    SLOW
+    #    SLOW_DIGGING
+    #    WEAKNESS
+    # Added since 1.9.1.
+    rain-effects: []
+    # 酸雨/雪药水效果持续时间
+    # Added since 1.11.2.
+    rain-effect-duration: 10
+    protection:
+      # 玩家戴头盔后是否还受酸雨/雪影响，false 为受影响
+      helmet: false
+      # 玩家穿整套盔甲将不会受到酸海影响，false 为受影响
+      full-armor: false
+world:
+  # 酸海世界昵称. 可在管理员指令中使用. 仅输入一个单词
+  # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+  friendly-name: AcidIsland
+  # 酸岛世界的文件夹名称 - 不存在将会生成.
+  # 对于末地和下界，此选项作为前缀 (比如 acidisland_world, acidisland_world_nether, acidisland_world_end)
+  # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+  world-name: acidisland_world
+  # 世界难度设置 - PEACEFUL, EASY, NORMAL, HARD
+  # 其它插件可能覆盖此选项
+  difficulty: NORMAL
+  spawn-limits:
+    # 生成限制. 此设置将覆盖 bukkit.yml 中的设置
+    # 设为负数使用服务器默认设置
+    # Added since 1.11.2.
+    monsters: -1
+    # Added since 1.11.2.
+    animals: -1
+    # Added since 1.11.2.
+    water-animals: -1
+    # Added since 1.11.2.
+    ambient: -1
+    # 设为 0 将会禁止动物生成, 但不推荐. 默认为 400.
+    # 设为负数使用服务器默认设置
+    # Added since 1.11.2.
+    ticks-per-animal-spawns: -1
+    # 设为 0 禁用怪物生成, 但不推荐. 默认为 400.
+    # 设为负数以使用服务器默认设置
+    # Added since 1.11.2.
+    ticks-per-monster-spawns: -1
+  # 岛屿半径. (岛屿间距是此值的 2 倍)
+  # 请设为 16 的倍数
+  # 这对每个维度都有效: 主世界, 下界和末地.
+  # 请不要中途改变此选项.
+  # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+  distance-between-islands: 64
+  # 默认保护范围. 不可以比上面的选项大.
+  # 管理员可以使用 /acid range set <玩家> <范围> 单独为玩家设置保护范围
+  # 或赋予权限: acidisland.island.range.<范围值>
+  protection-range: 50
+  # 首个岛屿的位置. 这是该世界的第一个岛屿所在的位置
+  # 此值必须是岛屿半径(间距)的因数, 如果你算错了, 插件会自动为你纠正
+  # 所有岛屿都会围绕此坐标生成
+  # 因数: a × b = c, 则 a 和 b 为 c 的因数
+  # 如果你看不懂这些, 请不要修改此选项
+  # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+  start-x: 0
+  # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+  start-z: 0
+  offset-x: 0
+  offset-z: 0
+  # 岛屿海拔 - 最低为 5.
+  # 这将是岛屿模板中的基岩所在的 y 坐标.
+  island-height: 50
+  # 使用其它世界生成器.
+  # 如果启用, 本扩展将不会接管世界的生成.
+  # /!\ 此功能仍在测试，可能会出现各种问题.
+  use-own-generator: false
+  # 酸海高度 (不要中途改变此选项除非删除世界)
+  # 最低为 0, 将不会有酸海!
+  sea-height: 54
+  # 岛屿数量限制. 设为 -1 或 0 禁用.
+  # 若岛屿数量 ≥ 此选项, 新玩家将无法再创建岛屿.
+  max-islands: 0
+  # 默认游戏模式. 比如玩家创建岛屿时就会被设为此游戏模式
+  # 可用项: SURVIVAL(生存模式), CREATIVE(创造模式), ADVENTURE(冒险模式), SPECTATOR(旁观模式)
+  default-game-mode: SURVIVAL
+  # 默认生物群系(仅主世界有效)
+  default-biome: WARM_OCEAN
+  # 玩家默认一次最多能封禁多少个玩家.
+  # 权限为 acidisland.ban.maxlimit.X
+  # -1 = 无限
+  ban-limit: -1
+  nether:
+    # 是否生成下界 - 若设为 false, 下界将不会生成且下界传送门将无效. 某些插件可能仍会启用下界传送门.
+    # 注意: 某些默认挑战需要下界才能完成.
+    # 不管玩家从何处进入下界
+    # 在下界进入传送门时都会传送到自己的岛屿上.
+    generate: true
+    # 是否生成岛屿. 设为 false 将生成原版下界.
+    # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+    islands: true
+    # 下界的酸海高度，仅上方设置为 true 时有效
+    # 中途改变此设置将会引发问题!
+    # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+    sea-height: 54
+    # 是否生成下界顶层, 若为 false, 下界顶层将不会生成
+    # 若生成卡顿, 可以考虑关闭此功能
+    # 仅对下界生效
+    roof: true
+    # 下界出生点保护
+    # 在此范围内的玩家无法进行任何世界交互
+    # 最小为 0 (不推荐), 最大为 100. 默认为 25.
+    # 仅对原版下界有效, 即上方 islands 设为 false
+    spawn-radius: 25
+  end:
+    # 是否启用末地
+    generate: true
+    # 是否生成岛屿，设为 false 将生成原版末地
+    # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+    islands: true
+    # 末地的酸海高度，仅上方设置为 true 时有效.
+    # 中途改变此设置将引发问题!
+    # /!\ 请不要中途改变此选项. 如果你确定要修改此选项, 请先重置世界和数据库.
+    sea-height: 54
+    # /!\ 此功能仍在测试，可能会出现各种问题.
+    dragon-spawn: false
+  # 敌对生物允许名单 - 这些生物不会在执行 /island 命令或登录时清除
+  remove-mobs-whitelist:
+  - ZOMBIE_VILLAGER
+  - WITHER
+  - PIG_ZOMBIE
+  - ENDERMAN
+  # 世界设置.
+  flags:
+    CREEPER_DAMAGE: true
+    OBSIDIAN_SCOOPING: true
+    PISTON_PUSH: false
+    ISLAND_RESPAWN: true
+    CREEPER_GRIEFING: false
+    ENDERMAN_GRIEFING: true
+    CLEAN_SUPER_FLAT: false
+    CHEST_DAMAGE: false
+    PREVENT_TELEPORT_WHEN_FALLING: false
+    NATURAL_SPAWNING_OUTSIDE_RANGE: true
+    ENTER_EXIT_MESSAGES: true
+    ENDERMAN_DEATH_DROP: true
+    OFFLINE_REDSTONE: true
+    OFFLINE_GROWTH: true
+    REMOVE_MOBS: true
+    ENDER_CHEST: false
+    ITEM_FRAME_DAMAGE: false
+    BOAT: true
+  # 这是新岛屿的默认保护策略.
+  # 只有等级大于等于所设值时才能执行该行为
+  # 等级列表:
+  # 游客 = 0, 成员 = 900, 岛主 = 1000
+  default-island-flags:
+    HURT_ANIMALS: 500
+    DRAGON_EGG: 500
+    REDSTONE: 500
+    BUCKET: 500
+    LOCK: 0
+    ENDER_PEARL: 500
+    DOOR: 500
+    FURNACE: 500
+    MINECART: 500
+    ANVIL: 500
+    FISH_SCOOPING: 500
+    END_PORTAL: 500
+    BREEDING: 500
+    HURT_VILLAGERS: 500
+    TURTLE_EGGS: 500
+    FROST_WALKER: 500
+    COLLECT_LAVA: 500
+    BREAK_SPAWNERS: 500
+    LEVER: 500
+    ELYTRA: 0
+    RIDING: 500
+    HURT_MONSTERS: 0
+    CAKE: 500
+    ARMOR_STAND: 500
+    NAME_TAG: 500
+    TRADING: 0
+    EGGS: 500
+    ITEM_DROP: 0
+    NOTE_BLOCK: 0
+    FLINT_AND_STEEL: 500
+    NETHER_PORTAL: 500
+    LECTERN: 500
+    CROP_TRAMPLE: 500
+    ITEM_PICKUP: 0
+    BREWING: 500
+    DROPPER: 500
+    TNT_PRIMING: 500
+    COLLECT_WATER: 500
+    BUTTON: 500
+    FIRE_EXTINGUISH: 500
+    COMMAND_RANKS: 500
+    BEACON: 500
+    TRAPDOOR: 500
+    EXPERIENCE_BOTTLE_THROWING: 500
+    PRESSURE_PLATE: 0
+    DYE: 500
+    PLACE_BLOCKS: 500
+    ITEM_FRAME: 500
+    CRAFTING: 0
+    SHEARING: 500
+    ENCHANTING: 0
+    BOAT: 500
+    BED: 500
+    SPAWN_EGGS: 500
+    MILKING: 0
+    DISPENSER: 500
+    GATE: 0
+    EXPERIENCE_PICKUP: 500
+    HOPPER: 500
+    LEASH: 500
+    BREAK_BLOCKS: 500
+    MOUNT_INVENTORY: 500
+    CHORUS_FRUIT: 500
+    CONTAINER: 500
+    JUKEBOX: 500
+    POTION_THROWING: 500
+  # 新岛屿的默认设置
+  default-island-settings:
+    PVP_END: false
+    ANIMAL_SPAWN: true
+    PVP_NETHER: false
+    LEAF_DECAY: true
+    TNT_DAMAGE: true
+    FIRE_IGNITE: true
+    MONSTER_SPAWN: true
+    FIRE_SPREAD: true
+    FIRE_BURNING: true
+    PVP_OVERWORLD: false
+  # 这些设置将对玩家隐藏
+  # 当然你也可以在游戏中设置隐藏/显示(见 Wiki)
+  hidden-flags: []
+  # 游客不可以在岛屿内使用这些指令
+  visitor-banned-commands:
+  - spawner
+  - spawnmob
+  # 玩家不可以在掉落时使用这些指令
+  # 仅在 PREVENT_TELEPORT_WHEN_FALLING 设置开启时有效
+  falling-banned-commands:
+  - warp
+  - spawn
+island:
+  # 队伍的最大人数
+  # 用权限设置的人数不可低于此值.
+  # 权限为: acidisland.team.maxsize.<人数>
+  max-team-size: 4
+  # 每个岛屿的合作者的最大人数
+  # 赋予玩家 acidisland.coop.maxsize.<人数> 权限可覆盖此选项
+  # 权限所设人数不得小于此值
+  # Added since 1.13.0.
+  max-coop-size: 4
+  # 每个岛屿最多可以有多少个受信任玩家
+  # 赋予玩家 acidisland.trust.maxsize.<人数> 权限可覆盖此选项
+  # 权限所设人数不得小于此值
+  # Added since 1.13.0.
+  max-trusted-size: 4
+  # 每个玩家最多可以有几个家. 最少 = 1
+  # 多于 1 个家的指令格式: /ai sethome <第几个家> 或 /ai go <第几个家>
+  # 权限: acidisland.island.maxhomes.<数量>
+  max-homes: 1
+  reset:
+    # 玩家最多可以重置多少次岛屿 (可使用 /acid reset add/remove/reset/set 指令设置)
+    # -1 意为无限, 0 为禁止重置.
+    # 比如, 2 次重置表示玩家有 2 次重置机会或 3 次获得新岛屿的机会
+    reset-limit: -1
+    # 被踢出或主动离开队伍的玩家将会失去一次岛屿重置机会
+    # 如果玩家的重置机会为 0, 且离开了队伍, 该玩家将不能再创建新岛屿, 只能加入其它队伍
+    # 设为 true 可以避免玩家用不正常的方式使用队伍功能
+    leavers-lose-reset: false
+    # 保留被踢出玩家的背包物品.
+    # 此项将覆盖 on-leave.inventory 设置.
+    kicked-keep-inventory: false
+    on-join:
+      # 当玩家创建或加入一个岛屿时扩展是否重置这些项目
+      # 重置金钱 - 若为 true, 将会将玩家的金钱重置为默认值
+      # 推荐开启此功能, 但是如果你的服务器上还有其他玩法且你还想开启此功能
+      # 请使用支持不同世界不同金钱的插件.
+      money: false
+      # 重置背包 - 若为 true, 玩家的背包将会被清空.
+      # 注意: 如果你安装了 MultiInv 或其他相似的背包管理插件, 那些插件仍会在
+      # 切换世界时更换玩家的背包.
+      inventory: false
+      # 重置血量 - 若为 true, 玩家将被治愈.
+      health: true
+      # 重置饥饿值 - 若为 true, 玩家将被喂饱.
+      hunger: true
+      # 重置经验值 - 若为 true, 玩家的经验值将被重置.
+      exp: false
+      # 重置末影箱 - 若为 true, 玩家末影箱中的物品将被清空.
+      ender-chest: false
+    on-leave:
+      # 当玩家离开/被踢出一个岛屿时,扩展是否重置以下项目
+      # 重置金钱 - 若为 true, 将会将玩家的金钱重置为默认值
+      # 推荐开启此功能, 但是如果你的服务器上还有其他玩法且你还想开启此功能
+      # 请使用支持不同世界不同金钱的插件.
+      money: false
+      # 重置背包 - 若为 true, 玩家的背包将会被清空.
+      # 注意: 如果你安装了 MultiInv 或其他相似的背包管理插件, 那些插件仍会在
+      # 切换世界时更换玩家的背包.
+      inventory: false
+      # 重置血量 - 若为 true, 玩家将被治愈.
+      health: false
+      # 重置饥饿值 - 若为 true, 玩家将被喂饱.
+      hunger: false
+      # 重置经验值 - 若为 true, 玩家的经验值将被重置.
+      exp: false
+      # 重置末影箱 - 若为 true, 玩家末影箱中的物品将被清空.
+      ender-chest: false
+  create-island-on-first-login:
+    # 是否在玩家第一次进入服务器时自动创建该玩家的岛屿.
+    # 若设为 true,
+    #    * 当玩家第一次加入服务器时, 该玩家将被告知
+    #     岛屿已创建.
+    #   * 请确保你有一个叫 "default" 的模板: 此功能将用
+    #     此模板创建岛屿.
+    #   * 玩家不必执行指令即可创建岛屿.
+    # 若设为 false, 此功能将被完全禁用.
+    # 警告:
+    #   * 如果你的服务器(单端)运行了多个游戏模式, 并且都
+    #     开启了此功能, 所有游戏模式的岛屿都会被自动创建.
+    #     但是, 玩家之后将被传送到哪个游戏模式是随机的.
+    #   * 创建岛屿是比较占用服务器性能的, 请认真考虑是否启用此功能
+    #     来相对的避免潜在的问题发生, 尤其是服务器人流量较大时.
+    enable: false
+    # 玩家登录服务器多少秒后, 岛屿将开始创建.
+    # 若所设值 ≤ 0, 岛屿将在玩家登录时立即创建.
+    # 建议此值不要大于 1 分钟(60 秒).
+    delay: 5
+    # 若玩家在上方所设的时间内离开了服务器
+    # 是否停止岛屿的创建.
+    # 若设为 true,
+    #   * 若玩家在延缓期内离开了服务器，岛屿创建会停止.
+    #     * 若玩家之后又加入了服务器，ta 不会再被视为新玩家，因此岛屿不会自动创建.
+    #   * 若玩家在岛屿创建阶段离开了服务器, 岛屿会继续创建.
+    # 若设为 false, 无论如何岛屿都会在延迟过后创建.
+    # 若上方选项小于等于 0 ，此设置无任何效果.
+    abort-on-logout: true
+  # 当玩家进入传送门时，如果末地/下界岛屿不存在是否生成.
+  # 一般末地和下界岛屿都会在玩家创建岛屿时自动生成，但是
+  # 由于某些神奇的原因导致它们没有生成时，可以开启此选项.
+  # Note that bedrock removal glitches can exploit this option.
+  create-missing-nether-end-islands: false
+  commands:
+    # 当玩家加入或创建岛屿时执行的指令.
+    on-join: []
+    # 当玩家离开岛屿、重置岛屿或被踢出岛屿时执行的指令.
+    on-leave: []
+  sethome:
+    nether:
+      allow: true
+      require-confirmation: true
+    the-end:
+      allow: true
+      require-confirmation: true
+  deaths:
+    # 是否记录死亡次数.
+    counted: true
+    # 最多记录的死亡次数. 死亡数可能会被其它扩展使用.
+    max: 10
+    # 当玩家加入一个队伍时，重置 ta 的死亡数
+    team-join-reset: true
+    # 是否在玩家创建新岛/重置岛屿时重置死亡数
+    reset-on-new-island: true
+  customranks: {}
+protection:
+  # 区域限制型生物.
+  # 离开出生岛的这些生物将被移除.
+  geo-limit-settings: []
+  # 无敌游客设置. 这些伤害不会影响游客.
+  # 留空以关闭无敌游客模式
+  invincible-visitors:
+  - BLOCK_EXPLOSION
+  - CONTACT
+  - CUSTOM
+  - DROWNING
+  - ENTITY_ATTACK
+  - ENTITY_EXPLOSION
+  - FALL
+  - FALLING_BLOCK
+  - FIRE
+  - FIRE_TICK
+  - LAVA
+  - LIGHTNING
+  - MAGIC
+  - POISON
+  - PROJECTILE
+  - STARVATION
+  - SUFFOCATION
+  - THORNS
+  - WITHER
+  - DRAGON_BREATH
+  - FLY_INTO_WALL
+  - HOT_FLOOR
+  - CRAMMING
+  - VOID
+do-not-edit-these-settings:
+  # 请勿修改此处
+  reset-epoch: 0
