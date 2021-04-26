@@ -39,7 +39,7 @@ biomes:
   biomesList:
     ocean:
       friendlyName: '海洋'
-      description: '水是剧毒的'
+      description: '☠水是剧毒的☠'
       icon: 'water_bucket'
       islandLevel: 0
       environment: 'normal'
@@ -48,7 +48,7 @@ biomes:
       permission: []
     warm_ocean:
       friendlyName: '热带海洋'
-      description: '热水也是剧毒的'
+      description: '☠热水也是剧毒的☠'
       icon: 'tropical_fish'
       islandLevel: 0
       cost: 0
@@ -60,7 +60,7 @@ biomes:
       cost: 0
     desert:
       friendlyName: '沙漠'
-      description: '好处是不会下酸雨了'
+      description: '好处是不会下酸雨了XD'
       icon: 'sand'
       islandLevel: 0
       cost: 0
@@ -84,7 +84,7 @@ biomes:
       cost: 0
     flower_forest:
       friendlyName: '花语森林'
-      description: '希望不是传说之下那朵小花'
+      description: '希望不是传说之下那朵小花/>_<\'
       icon: 'poppy'
       islandLevel: 0
       cost: 0
