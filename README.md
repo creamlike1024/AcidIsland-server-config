@@ -5,6 +5,7 @@
 没有加什么限制
 
 插件列表：
+
 ![image](https://user-images.githubusercontent.com/25699126/116084468-6aca8e00-a6d0-11eb-812b-e88f2aef9b47.png)
 
 请下载Release中的整合端
@@ -17,9 +18,9 @@
 
 3.server.properties按需修改
 
-**4.你需要设置op来启用server.properties中设置的spawn-protection出生点保护（不设置op 服务器将会忽略这一项，主城就不会被保护）
+4.**你需要设置op来启用server.properties中设置的spawn-protection出生点保护（不设置op 服务器将会忽略这一项，主城就不会被保护）
 
-**5.在控制台中输入gamerule keepInventory true来开启死亡不掉落（默认是没有开的）
+5.**在控制台中输入gamerule keepInventory true来开启死亡不掉落（默认是没有开的）
 
 6.在主城搭好商店（用半砖商店slabbo插件）和公告墙
 
@@ -27,19 +28,29 @@
 
 游玩提示
 1./ai创建/传送海岛
+
 2./menu打开海岛菜单（command.yml中为ai controlpanel设置别名）
+
 3.半砖商店用法，用木棍右键半砖打开gui菜单
 
 默认的一些设置：
 
 1.玩家能创建的半砖商店数量不限（权限slabbo.limit.*   将星号改为数字可限制数量）
+
 2.酸水的伤害改小了一点，时间缩短，立即生效
+
 3.ess设置允许放岩浆桶tnt（主城有保护）
+
 4.各种插件的配置都修改了一点，bukkit.yml spigot.yml paper.yml优化了一下（只改了几个地方）
+
 5.海岛成就有汉化
+
 6.玩家没有创建ess的warp的权限（可以用海岛的木牌warp，需要岛屿达到10级
+
 7.正版验证关闭
+
 8.最低钱数为-10，最小支付金额为0.01
+
 **9.在luckperm中没有给op设置完全的管理权限
 
 总之就是看情况改一下插件的配置，也可以直接用。这些配置是测试过的，能正常游玩
