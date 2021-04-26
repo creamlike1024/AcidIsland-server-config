@@ -39,7 +39,7 @@ biomes:
   biomesList:
     ocean:
       friendlyName: 'Ocean'
-      description: 'Oh, now you need to learn how to swim.'
+      description: '现在你需要学习如何游泳'
       icon: 'water_bucket'
       islandLevel: 0
       environment: 'normal'
@@ -48,49 +48,49 @@ biomes:
       permission: []
     warm_ocean:
       friendlyName: 'Warm Ocean'
-      description: 'Where are my corrals?'
+      description: '我的畜栏在哪里？'
       icon: 'tropical_fish'
       islandLevel: 0
       cost: 0
     plains:
       friendlyName: 'Plains'
-      description: ''
+      description: '一望无际。'
       icon: 'grass_block'
       islandLevel: 0
       cost: 0
     desert:
       friendlyName: 'Desert'
-      description: 'It is too hot for snow and ice!'
+      description: '对于冰雪来说太热了！'
       icon: 'sand'
       islandLevel: 0
       cost: 0
     snowy_tundra:
       friendlyName: 'Cold Tundra'
-      description: 'The cold winter is coming!'
+      description: '寒冷的冬天来了！'
       icon: 'snowball'
       islandLevel: 0
       cost: 0
     savanna:
       friendlyName: 'Savanna'
-      description: 'Where is my horse?'
+      description: '我的马在哪里？'
       icon: 'grass'
       islandLevel: 0
       cost: 0
     forest:
       friendlyName: 'Forest'
-      description: 'Wolfs are coming.'
+      description: '狼来了。'
       icon: 'spruce_sapling'
       islandLevel: 0
       cost: 0
     flower_forest:
       friendlyName: 'Flower Forest'
-      description: 'All flowers you ever need.'
+      description: '你需要的所有花朵。'
       icon: 'poppy'
       islandLevel: 0
       cost: 0
     jungle:
       friendlyName: 'Jungle'
-      description: 'All snow and ice must go!'
+      description: '所有的冰雪都必须消失！'
       icon: 'cocoa_beans'
       islandLevel: 0
       cost: 0
