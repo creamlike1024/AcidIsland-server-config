@@ -8,6 +8,8 @@ plugins/*.jar
 plugins/bStats
 plugins/Essentials/userdata
 plugins/Essentials/warps
+plugins/BentoBox/addons
+plugins/BentoBox/database
 *.jar
 banned-ips.json
 banned-players.json
