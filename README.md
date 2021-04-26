@@ -10,7 +10,7 @@
 
 请下载Release中的整合端
 
-**在正式开服前先完成下面的几个步骤
+**在正式开服前先完成下面的几个步骤**
 
 1.更新paper核心
 
@@ -18,9 +18,9 @@
 
 3.server.properties按需修改
 
-4.**你需要设置op来启用server.properties中设置的spawn-protection出生点保护（不设置op 服务器将会忽略这一项，主城就不会被保护）
+4.**你需要设置op来启用server.properties中设置的spawn-protection出生点保护（不设置op 服务器将会忽略这一项，主城就不会被保护）**
 
-5.**在控制台中输入gamerule keepInventory true来开启死亡不掉落（默认是没有开的）
+5.**在控制台中输入gamerule keepInventory true来开启死亡不掉落（默认是没有开的）**
 
 6.在主城搭好商店（用半砖商店slabbo插件）和公告墙
 
@@ -51,7 +51,7 @@
 
 8.最低钱数为-10，最小支付金额为0.01
 
-**9.在luckperm中没有给op设置完全的管理权限
+**9.在luckperm中没有给op设置完全的管理权限**
 
 总之就是看情况改一下插件的配置，也可以直接用。这些配置是测试过的，能正常游玩
 
