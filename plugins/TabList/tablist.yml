@@ -51,8 +51,8 @@ header:
 
 footer:
 - "<13>&e&l Players:&6 %online-players%&7/&6%max-players%\n"
-- "&7<28> %anim:website%&7:&2 没有&7 <28>"
-- "&7<28> &eQQ群&7:&2 &n941305345&7 <28>\n<lines>"
+- "&7<28> %anim:website%&7:&2 &n没有&7 <28>"
+- "&7<28> &eQQ群&7:&2 没有&7 <28>\n<lines>"
 - "&7<28> &b今天是&7:&g %date%&7 <28>"
 - "&7<28> &5现在时间是&7:&6 %server-time%&7 <28>\n<lines>"
 

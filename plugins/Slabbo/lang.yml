@@ -1,0 +1,165 @@
+
+error-message:
+  chestlink:
+    no-destroy-linked: "§e您不能销毁与商店连接的箱子。"
+    already-linked: "§e该箱子已经和商店连接了。"
+  general:
+    limit-hit: "§e您创建的商店已达到限制({limit})"
+    not-a-shop: "§e这不是商店"
+    not-shop-owner: "§e这不是你的商店"
+    no-shops-found: "§e无法找到商店"
+    not-admin-shop: "§e这不是管理员商店"
+    no-command-entered: "§e请输入指令"
+    no-buy-commands-in-shop: "§e该商店没有购买指令"
+    no-sell-commands-in-shop: "§e该商店没有回收指令"
+    invalid-index: "§e不是有效的索引！"
+  import:
+    file-not-found: "§e找不到该文件"
+    plugin-not-supported: "§e该插件无法加载"
+    general-error: "§e加载时发生错误。有关更多详细信息请参见控制台。"
+  modify:
+    invalid-buy-price: "§e请输入大于0的购买价格"
+    invalid-sell-price: "§e请输入大于0的回收价格"
+    invalid-quantity: "§e请输入正数"
+    not-a-valid-number: "§e这不是一个有效的数字！"
+    invalid-note: "§e无效的回收注释！"
+  shop-errors:
+    out-of-stock: "§e该商店暂时缺货！"
+    not-enough-funds: "§e您没有足够的资金！"
+    not-enough-items: "§e您没有足够的物品！"
+    not-enough-shop-funds: "§e该商店没有足够的资金！"
+    not-enough-inventory-space: "§e该商店没有足够的库存！"
+    buy-limit-reached: "§e已达到商店购买限制！"
+    sell-limit-reached: "§e已达到商店回收限制！"
+
+success-message:
+  chestlink:
+    link-success: "§e成功与箱子连接： {location}"
+    linking-cancelled: "§e连接已被取消。"
+    linking-removed: "§e商店连接已删除。"
+    previous-linking-cancelled: "§e您之前的连接已被取消。"
+  general:
+    admin-create: "§e该商店现在是管理员商店！"
+    admin-destroy: "§e该商店不再是管理员商店"
+    shops-saved: "§e已保存商店!"
+    limited-stock:
+      create: "§e该商店库存有限！"
+      destroy: "§e该商店的库存无限！"
+      set-time: "§e补货时间已设置为 {time} 秒！"
+      set-sell-stock: "§e回收库存已设置为 {stock}!"
+      set-buy-stock: "§e购买库存已设置为 {stock}!"
+    shop-commands:
+     added-command: "§e该命令已添加。"
+     removed-command: "§e该命令已移除。"
+  import:
+    importing: "§e进口商店!"
+    success: "§e进口了 {count} 家商店。 已跳过 {skipped} ，因为其位置已经有商店。"
+  modify:
+    buyprice-set: "§e购买价格设置为 {price}"
+    sellprice-set: "§e回收价格设置为 {price}"
+    quantity-set: "§e数量设置为 {quantity}"
+    owner-set: "§e所有者设置为 {owner}"
+    stock-set: "§e库存设置为 {stock}"
+    note-set: "§e商店备注设置为 {note}"
+  client:
+    buy-success: "§e购买了 {count} 个 {item} §a ，总计花费 {cost}"
+    sell-success: "§e回收了 {count} 个 {item} §a ，总计获得 {cost}"
+  owner:
+    buy-success: "§e玩家{user} 在您的商店总共购买了 {count} 个 {item} §a。总价 {cost} "
+    sell-success: "§e玩家{user} 在您的商店总共回收了 {count} 个 {item} §a 。总价 {cost} "
+
+general:
+  currency-format: "§e${amount}"
+  chestlink:
+    chest-name: "§e连接箱子 [{location}]"
+    crouch-to-link: "§e请潜行并撸您想连接的箱子。"
+    link-for-refill: "§e连接箱子以继续。"
+    cancel-chest-link: "§e取消连接"
+  general:
+    reloading: "§e重载中..."
+    reloaded: "§e已重载"
+    restock-message: "§e您的商店 {location} 的 {item} §a 不足"
+    stacks: "组"
+    cancel: "§e取消"
+    confirm: "§e确认"
+    item: "§e物品"
+
+    next-page: "§e下一页"
+    previous-page: "§e上一页"
+
+
+    buy-price: "§e购买价"
+    sell-price: "§e回收价"
+
+    click-to-set: "§e点击设置"
+
+    quantity: "§e数量"
+
+    current-funds: "§e您的余额"
+    new-shop: "§e新商店"
+
+    shop: "§e商店"
+    destroy-shop: "§e销毁商店"
+
+    destroy-shop-item-warning: "§e这将摧毁您的物品。"
+    type-new-rate: "§e请输入新数量"
+    type-new-buy-price: "§e请输入新的购买价格"
+    type-new-sell-price: "§e请输入新的回收价格"
+    type-new-quantity: "§e请输入新数量"
+    type-new-note: "§e请输入新备注。 输入#取消。"
+
+    not-for-sale-explain: "§e(-1 表示不出售)"
+    not-buying-explain: "§e(-1 表示不购买)"
+    quantity-explain: "§e(每次购买/出售的物品数量)"
+
+    amount-per-transaction: "§e每次点击数量: {count}"
+    amount-per-click: "§e点击数量: {count}"
+    in-stock: "§e现有库存: {count}"
+
+    buy-for: "§e购买: {price}"
+    sell-for: "§e回收: {price}"
+    funds-message: "§e资金: {funds}"
+
+    default-shop-note: "§e我们做个交易吧!"
+
+    pager: "§e(页码 {page} / {pageCount})"
+
+    shift-bulk:
+      deposit: "§e+Shift 批量库存"
+      withdraw: "§e+Shift 批量取出"
+
+    limited-stock:
+      sell-stock-left: "§e左键回收: {count}"
+      buy-stock-left: "§e左键购买: {count}"
+
+
+# [Slabbo] Owner"
+gui:
+  owner-title: "§e拥有者"
+  editing-shop: "§e编辑商店中"
+  client: "§e顾客"
+  items:
+    admin:
+      deposit-item: "§e存储 {item}"
+      withdraw-item: "§e取出 {item}"
+      changerate-item: "§e修改物品"
+      modify-shop: "§e修改商店"
+      view-as-customer: "§e以客户身份查看"
+      link-chest: "§e连接箱子"
+    user:
+      buy-item: "§e购买§r {item} §e* §e{quantity}"
+      sell-item: "§e回收§r {item} §e* §e{quantity}"
+      sellers-note: "§e来自卖家的提示"
+    info:
+      owned-by: "§e属于玩家 {owner}"
+      selling-item: "§e销售物品: {item}"
+      buy-each: "§e§b购买 {quantity} 个需要资金 {buyPrice} "
+      sell-each: "§e§b回收 {quantity} 个获得资金 {sellPrice} "
+      limit:
+        sell-stock: "§e回收中数量: {sellStock}"
+        buy-stock: "§e出售中数量: {buyStock}"
+        restock-time: "§e补货时间: {restockTime} 秒"
+        next-restock: "§e下次补货: {time}"
+
+    new-shop:
+      click-item-below: "§e请点击背包中物品开始创建"

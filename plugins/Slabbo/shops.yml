@@ -1,0 +1,30 @@
+shops:
+  acidisland_world,14,79,18:
+    ==: Shop
+    buyPrice: 10
+    sellPrice: -1
+    quantity: 1
+    location: null
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"₪
+          "},{"bold":false,"italic":false,"underlined":true,"color":"yellow","text":"海岛菜单"},{"italic":false,"underlined":false,"text":"
+          "},{"italic":false,"color":"dark_gray","text":"["},{"italic":false,"color":"white","text":"右键打开"},{"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"⇛
+          "},{"italic":false,"color":"gray","text":"右键即可打开 "},{"italic":false,"underlined":true,"color":"yellow","text":"海岛菜单"}],"text":""}'
+        - '{"text":""}'
+        internal: H4sIAAAAAAAAAONiYOBk4PZzCnHOz81NzEsp5mBgYGBkkEhy8nNMKg6MsEjKMvD1d8vxcM3yKE23tWUAANkWJqsxAAAA
+    stock: 0
+    admin: true
+    ownerId: 898c26d3-294a-3d3c-9ff8-bb0a8f84d8b6
+    shopLimit: null
+    linkedChestLocation: ''
+    note: null
+    commandList: null

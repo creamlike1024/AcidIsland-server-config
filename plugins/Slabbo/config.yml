@@ -1,0 +1,57 @@
+# Slabbo 非官方汉化 config.yml 文件
+# 作者: 小晓  QQ: 614401508 
+# 若有错误或插件更新请及时联系我
+# 
+########################
+#       基础设置       #
+########################
+#如何显示悬浮的物品
+#可输入以下值：
+# - quantity （当前商店出售的数量）
+# - full （一个出售的物品（64个））
+# - single （一个出售的物品）
+itemdisplay: quantity
+
+# 开启 Slabbo 检查更新
+checkupdates: true
+
+# 是否允许使用反向的楼梯方块用作商店
+stairs: true
+
+punchRestock:
+  # 是否允许手持出售物品点击商店单个补货
+  single: true
+
+  # 是否允许手持出售物品点击商店全部补货
+  # 库存中的所有匹配项
+  bulk: true
+
+########################
+#      箱子连接        #
+########################
+
+chestlinks:
+
+  # 启用箱子连接
+  enabled: true
+
+  # 是否仅允许有权限的玩家连接箱子
+  enforcepermission: false
+
+  # 漏斗连接箱子功能
+  hoppers:
+    # 允许漏斗连接箱子以补货
+    enabled: true
+
+    # 响应漏斗的时间
+    # 单位秒
+    savetime: 5
+
+  player:
+    # 若玩家背包中有物品则连接到箱子
+    enabled: true
+
+    # 响应背包的时间
+    # 单位秒
+    savetime: 5
+

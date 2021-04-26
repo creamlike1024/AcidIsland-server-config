@@ -1,0 +1,45 @@
+acf-minecraft:
+  invalid_world: "§e错误:这世界并不存在."
+  you_must_be_holding_item: "§e错误：您的主要手必须是物品."
+  player_is_vanished_confirm: |
+    警告: <c2>{vanished}</c2> 已消失. Do not blow their cover!'
+    '要确认您的操作，请在其名称的末尾添加 <c2>:confirm</c2>.'
+    '例如: <c2>{vanished}:confirm</c2>'
+
+  username_too_short: "§e错误：用户名太短，必须至少三个字符."
+  is_not_a_valid_name: "§e错误: <c2>{name}</c2> 不是有效的用户名."
+  multiple_players_match: "§e错误: 多个玩家与 <c2>{search}</c2> <c3>({all})</c3>, 相匹配，请更具体."
+  no_player_found_server: "§e没有与 <c2>{search}</c2> 匹配的玩家连接到该服务器."
+  no_player_found_offline: "§e找不到与 <c2>{search}</c2> 匹配的玩家."
+  no_player_found: "§e找不到与 <c2>{search}</c2> could 匹配的玩家."
+  location_please_specify_world: "§e错误: 请指定世界. 例如：<c2>bskyblock:x,y,z</c2>."
+  location_please_specify_xyz: "§e错误: 错误：请指定坐标x，y和z. 例如: <c2>bskyblock:x,y,z</c2>."
+  location_console_not_relative: "§e错误: 控制台可能不使用相对坐标作为位置。."
+
+acf-core:
+  permission_denied: "§e很抱歉，您没有执行此命令的权限。"
+  permission_denied_parameter: "§e对不起，您没有执行此命令的权限。"
+  error_generic_logged: "§e发生错误。已记录此问题。不便之处，敬请原谅。"
+  unknown_command: "§e未知命令，请键入 <c2>/help</c2>"
+  invalid_syntax:用法: "§e<c2>{command}</c2> <c3>{syntax}</c3>"
+  error_prefix:错误: "§e{message}"
+  error_performing_command: "§e很抱歉，执行此命令时出错。."
+  info_message: "§e{message}"
+  please_specify_one_of:错误: "§e请指定 (<c2>{valid}</c2>) 之一."
+  must_be_a_number:错误: "§e{num} 必须是数字。."
+  must_be_min_length:错误: "§e至少最短 {min} 个字符."
+  must_be_max_length:错误: "§e最长不能超过 {max} 个字符."
+  please_specify_at_most:错误: "§e最大只能： {max}."
+  please_specify_at_least:错误: "§e最小只能 {min}."
+  not_allowed_on_console:错误: "§e控制台可能无法执行此命令。."
+  could_not_find_player:错误: "§e找不到名称为: <c2>{search}</c2> 的玩家"
+  no_command_matched_search: "§e没有与 <c2>{search}</c2> 相匹配的命令."
+  help_page_information: "§e- 显示 <c2>{totalpages}</c2> 中的第 <c2>{page}</c2> 页 (<c3>{results}</c3> 结果)."
+  help_no_results:错误: "§e没有更多结果."
+  help_header: "§e<c3>=== </c3><c1>显示 </c1><c2>{commandprefix}{command}</c2><c3> ===</c3> 的帮助"
+  help_format: "§e<c1>{command}</c1> <c2>{parameters}</c2> <c3>{separator} {description}</c3>"
+  help_detailed_header: "§e<c3>=== </c3><c1>显示 </c1><c2>{commandprefix}{command}</c2><c3> ===</c3> 的详细帮助"
+  help_detailed_command_format: "§e<c1>{command}</c1> <c2>{parameters}</c2> <c3>{separator} {description}</c3>"
+  help_detailed_parameter_format: "§e<c2>{syntaxorname}</c2>: <c3>{description}</c3>"
+  help_search_header: "§e<c3>=== </c3><c1>搜索结果 </c1><c2>{commandprefix}{command} {search}</c2><c3> ===</c3>"
+  error_prefix: "§e{message}"

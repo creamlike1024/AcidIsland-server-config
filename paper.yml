@@ -144,7 +144,7 @@ world-settings:
     mob-spawner-tick-rate: 1
     game-mechanics:
       nerf-pigmen-from-nether-portals: false
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       disable-sprint-interruption-on-attack: false
       shield-blocking-delay: 5
       disable-player-crits: false
@@ -240,7 +240,7 @@ world-settings:
         COBBLESTONE: 300
     hopper:
       cooldown-when-full: true
-      disable-move-event: false
+      disable-move-event: true
     door-breaking-difficulty:
       zombie:
       - HARD

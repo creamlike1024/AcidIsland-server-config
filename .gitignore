@@ -1,8 +1,6 @@
 cache
 logs
-world
-world_nether
-world_the_end
+world*
 acidisland*
 .console_history
 plugins/*.jar
@@ -22,6 +20,9 @@ plugins/BentoBox/database/TopTenData
 plugins/BentoBox/database/WarpsData
 plugins/BentoBox/database/LikesObject
 plugins/BentoBox/database/GeneratorDataObject
+plugins/AuthMe/playerdata
+plugins/AuthMe/authme*
+
 *.jar
 banned-ips.json
 banned-players.json

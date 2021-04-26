@@ -35,7 +35,7 @@ commands:
   - tellraw
   silent-commandblock-console: false
 settings:
-  sample-count: 12
+  sample-count: 0
   netty-threads: 4
   player-shuffle: 0
   user-cache-size: 1000
@@ -101,7 +101,7 @@ world-settings:
       misc: 32
       other: 64
     merge-radius:
-      item: 2.5
+      item: 3
       exp: 3.0
     growth:
       cactus-modifier: 100

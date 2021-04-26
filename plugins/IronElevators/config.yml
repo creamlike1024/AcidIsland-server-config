@@ -1,0 +1,14 @@
+Time Left: '&4You still have %s seconds left!'
+UpdateMessage: true
+Spectator Disable: true
+Worlds:
+- acidisland_world
+- acidisland_world_nether
+- acidisland_world_the_end
+CoolDownInSeconds: 0
+Elevators:
+  IRON_BLOCK:
+    minElevation: 3
+    maxElevation: 14
+    elevatorWhooshUP: IRONGOLEM_ATTACK
+    elevatorWhooshDOWN: IRONGOLEM_ATTACK
