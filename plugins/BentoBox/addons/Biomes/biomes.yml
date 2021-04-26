@@ -38,8 +38,8 @@
 biomes:
   biomesList:
     ocean:
-      friendlyName: 'Ocean'
-      description: '现在你需要学习如何游泳'
+      friendlyName: '海洋'
+      description: '水是剧毒的'
       icon: 'water_bucket'
       islandLevel: 0
       environment: 'normal'
@@ -47,50 +47,50 @@ biomes:
       order: 0
       permission: []
     warm_ocean:
-      friendlyName: 'Warm Ocean'
-      description: '我的畜栏在哪里？'
+      friendlyName: '热带海洋'
+      description: '热水也是剧毒的'
       icon: 'tropical_fish'
       islandLevel: 0
       cost: 0
     plains:
-      friendlyName: 'Plains'
-      description: '一望无际。'
+      friendlyName: '平原'
+      description: '很适合建筑党'
       icon: 'grass_block'
       islandLevel: 0
       cost: 0
     desert:
-      friendlyName: 'Desert'
-      description: '对于冰雪来说太热了！'
+      friendlyName: '沙漠'
+      description: '好处是不会下酸雨了'
       icon: 'sand'
       islandLevel: 0
       cost: 0
     snowy_tundra:
-      friendlyName: 'Cold Tundra'
-      description: '寒冷的冬天来了！'
+      friendlyName: '寒带苔原'
+      description: '有毒的海水结冰了会变成有毒的冰块吗?'
       icon: 'snowball'
       islandLevel: 0
       cost: 0
     savanna:
-      friendlyName: 'Savanna'
-      description: '我的马在哪里？'
+      friendlyName: '非洲热带草原'
+      description: '可以试试骑马与砍杀'
       icon: 'grass'
       islandLevel: 0
       cost: 0
     forest:
-      friendlyName: 'Forest'
-      description: '狼来了。'
+      friendlyName: '森林'
+      description: '不要回复!不要回复!不要回复!'
       icon: 'spruce_sapling'
       islandLevel: 0
       cost: 0
     flower_forest:
-      friendlyName: 'Flower Forest'
-      description: '你需要的所有花朵。'
+      friendlyName: '花语森林'
+      description: '希望不是传说之下那朵小花'
       icon: 'poppy'
       islandLevel: 0
       cost: 0
     jungle:
-      friendlyName: 'Jungle'
-      description: '所有的冰雪都必须消失！'
+      friendlyName: '热带丛林'
+      description: '我的雪人呢?'
       icon: 'cocoa_beans'
       islandLevel: 0
       cost: 0
