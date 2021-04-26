@@ -22,7 +22,6 @@ plugins/BentoBox/database/TopTenData
 plugins/BentoBox/database/WarpsData
 plugins/BentoBox/database/LikesObject
 plugins/BentoBox/database/GeneratorDataObject
-
 *.jar
 banned-ips.json
 banned-players.json
