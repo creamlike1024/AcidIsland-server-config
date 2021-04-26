@@ -34,7 +34,7 @@
 
 1./ai创建/传送海岛
 
-2./menu打开海岛菜单（command.yml中为ai controlpanel设置别名）
+2./menu打开海岛菜单（command.yml中为ai controlpanel设置的别名）
 
 3.半砖商店用法，用木棍右键半砖打开gui菜单
 
