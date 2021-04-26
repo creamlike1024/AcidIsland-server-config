@@ -38,8 +38,13 @@
 biomes:
   biomesList:
     ocean:
+<<<<<<< HEAD
       friendlyName: 'Ocean'
       description: '不适合游泳'
+=======
+      friendlyName: '海洋'
+      description: '☠水是剧毒的☠'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       icon: 'water_bucket'
       islandLevel: 0
       environment: 'normal'
@@ -47,56 +52,96 @@ biomes:
       order: 0
       permission: []
     warm_ocean:
+<<<<<<< HEAD
       friendlyName: 'Warm Ocean'
       description: '虽然水很温暖，但不适合游泳'
+=======
+      friendlyName: '热带海洋'
+      description: '☠热水也是剧毒的☠'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       icon: 'tropical_fish'
       islandLevel: 0
       cost: 0
     plains:
+<<<<<<< HEAD
       friendlyName: 'Plains'
       description: '飞机场~'
+=======
+      friendlyName: '平原'
+      description: '很适合建筑党'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       icon: 'grass_block'
       islandLevel: 0
       cost: 0
     desert:
+<<<<<<< HEAD
       friendlyName: 'Desert'
       description: '好处是不会下酸雨了'
+=======
+      friendlyName: '沙漠'
+      description: '好处是不会下酸雨了XD'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       icon: 'sand'
       islandLevel: 0
       cost: 0
     snowy_tundra:
+<<<<<<< HEAD
       friendlyName: 'Cold Tundra'
       description: '有毒的海水结冰了会变成有毒的冰块吗'
+=======
+      friendlyName: '寒带苔原'
+      description: '有毒的海水结冰了会变成有毒的冰块吗?'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       icon: 'snowball'
       islandLevel: 0
       cost: 0
     savanna:
+<<<<<<< HEAD
       friendlyName: 'Savanna'
+=======
+      friendlyName: '非洲热带草原'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       description: '可以试试骑马与砍杀'
       icon: 'grass'
       islandLevel: 0
       cost: 0
     forest:
+<<<<<<< HEAD
       friendlyName: 'Forest'
+=======
+      friendlyName: '森林'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       description: '不要回复!不要回复!不要回复!'
       icon: 'spruce_sapling'
       islandLevel: 0
       cost: 0
     flower_forest:
+<<<<<<< HEAD
       friendlyName: 'Flower Forest'
       description: '希望没有传说之下那朵小花'
+=======
+      friendlyName: '花语森林'
+      description: '希望不是传说之下那朵小花/>_<\'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       icon: 'poppy'
       islandLevel: 0
       cost: 0
     jungle:
+<<<<<<< HEAD
       friendlyName: 'Jungle'
+=======
+      friendlyName: '热带丛林'
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
       description: '我的雪人呢?'
       icon: 'cocoa_beans'
       islandLevel: 0
       cost: 0
+<<<<<<< HEAD
     SWAMP:
       friendlyName: '&e沼泽'
       description: '&f好湿啊！'
       icon: 'swamp'
       islandLevel: 0
       cost: 0
+=======
+>>>>>>> 5212c8609b5c3c33f458d23c90369ee1231ffe42
