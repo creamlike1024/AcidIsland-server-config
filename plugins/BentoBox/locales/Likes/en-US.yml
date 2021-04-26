@@ -1,0 +1,351 @@
+likes:
+  commands:
+    admin:
+      main:
+        parameters: ''
+        description: opens admin GUI
+      settings:
+        parameters: ''
+        description: opens admin settings GUI
+    player:
+      main:
+        parameters: ''
+        description: opens likes GUI
+      top:
+        parameters: <type>
+        description: opens top GUI
+      view:
+        parameters: <player>
+        description: opens GUI where you can see your likes
+  gui:
+    titles:
+      view: '&0&l View Island [type]'
+      top: '&0&l Top Islands by [type]'
+      manage: '&0&l Manage [type]'
+      admin: '&0&l Admin Panel'
+      settings: '&0&l Settings'
+      edit-view: '&0&l Edit Island [type]'
+      select-island: '&0&l Select an Island'
+      select-player: '&0&l Select a Player'
+      select-block: '&0&l Select a Block'
+    buttons:
+      add_like:
+        name: '&f&l Like'
+        description: |-
+          &7 Add or remove
+          &7 a like for this island.
+        cost: '&7 It will cost &b&o $[number]'
+      add_dislike:
+        name: '&f&l Dislike'
+        description: |-
+          &7 Add or remove
+          &7 a dislike for this island.
+        cost: '&7 It will cost &b&o $[number]'
+      add_star:
+        name: '&f&l [number] Star'
+        description: |-
+          &7 Allows to add or remove
+          &7 a star for this island.
+        cost: '&7 It will cost &b&o $[number]'
+      like:
+        name: '&f&l Likes Count'
+        description: '&7 Shows number of likes'
+        likes: '&o&b [number] likes'
+      like_rank:
+        name: '&f&l Rank by Likes'
+        description: |-
+          &7 Rank islands
+          &7 by likes
+        rank: '&o&b [number]. '
+        not-ranked: '&o&b Not in the top.'
+      dislike:
+        name: '&f&l Dislikes Count'
+        description: '&7 Shows number of dislikes'
+        dislikes: '&o&b [number] dislikes'
+      dislike_rank:
+        name: '&f&l Rank by Dislikes'
+        description: |-
+          &7 Rank island
+          &7 by dislikes
+        rank: '&o&b [number]. '
+        not-ranked: '&o&b Not in the top.'
+      overall:
+        name: '&f&l Rank'
+        description: '&7 Shows rank value'
+        value: '&o&b [number] rank'
+      overall_rank:
+        name: '&f&l Place by Rank'
+        description: |-
+          &7 Shows island place
+          &7 by rank
+        rank: '&o&b [number]. '
+        not-ranked: '&o&b Not ranked.'
+      stars:
+        name: '&f&l Average Stars'
+        description: '&7 Shows number of average stars'
+        stars: '&o&b [number] stars'
+      stars_rank:
+        name: '&f&l Rank by Stars'
+        description: |-
+          &7 Rank island
+          &7 by stars
+        rank: '&o&b [number]. '
+        not-ranked: '&o&b Not ranked.'
+      return:
+        name: '&f&l Return'
+        description: |-
+          &7 Return to previous menu
+          &7 or exit GUI
+      previous:
+        name: '&f&l Previous Page'
+        description: '&7 Switch to [number] page'
+      next:
+        name: '&f&l Next Page'
+        description: '&7 Switch to [number] page'
+      user:
+        name: '&f&l [name]'
+      view_mode:
+        name: '&f&l Ranking Type'
+        description: |-
+          &7 Allows to switch between
+          &7 different Rankings
+        active: '&2 Shows ranking by [type]'
+        inactive: '&c Shows ranking by [type]'
+      island:
+        name: '&f&l [name]'
+        description: |-
+          [owner]
+          [members]
+          [place]
+          [numbers]
+        owners-island: '[player]''s Island'
+        owner: '&7&l Owner: &r&b [player]'
+        members-title: '&7&l Members:'
+        member: '&b - [player]'
+        unknown: unknown
+        place: '&7&o [number]. &r&7 by &l [type]'
+        numbers_likes: '&7&l [likes] players &r&7 liked this island'
+        numbers_stars: '&7&l [stars] stars &r&7 from [number] players'
+        numbers_likes_dislikes: |-
+          &7&l [likes] players &r&7 liked this island
+          &7&l [dislikes] players &r&7 disliked this island
+          &7 Island rank: &l [rank]
+      manage_likes:
+        name: '&f&l Manage Island Data'
+        description: |-
+          &7 Manage all data
+          &7 stored for island.
+      likes_icon:
+        name: '&f&l Island Icon'
+        description: |-
+          &7 Change selected
+          &7 island icon in top GUI.
+      wipe_data:
+        name: '&f&l Wipe Data'
+        description: |-
+          &7 Complety remove
+          &7 all stored data for current
+          &7 GameMode addon.
+      settings:
+        name: '&f&l Settings'
+        description: |-
+          &7 Manage addon
+          &7 settings via GUI.
+      add_like_user:
+        name: '&f&l Add Like'
+        description: |-
+          &7 Select a
+          &7 player who will add
+          &7 a like.
+      remove_like_user:
+        name: '&f&l Remove Like'
+        description: |-
+          &7 Select a player
+          &7 that will remove a
+          &7 like.
+      add_dislike_user:
+        name: '&f&l Add Dislike'
+        description: |-
+          &7 Select a player
+          &7 who will add
+          &7 a dislike.
+      remove_dislike_user:
+        name: '&f&l Remove Dislike'
+        description: |-
+          &7 Select a player
+          &7 that will remove a
+          &7 dislike.
+      add_star_user:
+        name: '&f&l Add Stars'
+        description: |-
+          &7 Select a player
+          &7 who will add
+          &7 stars.
+      remove_star_user:
+        name: '&f&l Remove Stars'
+        description: |-
+          &7 Select a player
+          &7 whoe will remove
+          &7 stars.
+      like_cost:
+        name: '&f&l Add Like Cost'
+        description: |-
+          &7 Change the cost for a
+          &7 player to add a like.
+        cost: '&7&o Cost: &b [number]'
+      like_remove_cost:
+        name: '&f&l Remove Like Cost'
+        description: |-
+          &7 Change the cost for a
+          &7 player to remove a like.
+        cost: '&7&o Cost: &b [number]'
+      dislike_cost:
+        name: '&f&l Add Dislike Cost'
+        description: |-
+          &7 Change the cost for a
+          &7 player to add a dislike.
+        cost: '&7&o Cost: &b [number]'
+      dislike_remove_cost:
+        name: '&f&l Remove Dislike Cost'
+        description: |-
+          &7 Change the cost for a
+          &7 player to remove a dislike.
+        cost: '&7&o Cost: &b [number]'
+      stars_cost:
+        name: '&f&l Add Stars Cost'
+        description: |-
+          &7 Change the cost for a
+          &7 player a to add stars.
+        cost: '&7&o Cost: &b [number]'
+      stars_remove_cost:
+        name: '&f&l Remove Stars Cost'
+        description: |-
+          &7 Change the cost for a
+          &7 player to remove stars.
+        cost: '&7&o Cost: &b [number]'
+      default_icon:
+        name: '&f&l Default Icon'
+        description: |-
+          &7 Change the default
+          &7 icon for islands in the
+          &7 Ranking GUI.
+      inform_players:
+        name: '&f&l Inform Players'
+        description: |-
+          &7 Toggle if players
+          &7 should receive message when
+          &7 someone likes/dislikes/stars
+          &7 their island.
+        enabled: '&7 Player informing is &2 enabled'
+        disabled: '&7 Player informing is &c disabled'
+      log_history:
+        name: '&f&l Log History'
+        description: |-
+          &7 Toggle if history
+          &7 about adding and removing
+          &7 likes/dislikes/stars should
+          &7 be stored.
+          &7 It is not displayed anywhere.
+        enabled: '&7 History Logging is &2 enabled'
+        disabled: '&7 History Logging is &c disabled'
+      reset_likes:
+        name: '&f&l Reset Likes'
+        description: |-
+          &7 Remove all data
+          &7 about an island when an owner
+          &7 resets their island.
+          &7 Otherwise data will be kept
+          &7 and islands will remain in the
+          &7 rankings.
+        enabled: '&7 Resetting is &2 enabled'
+        disabled: '&7 Resetting is &c disabled'
+      is_online:
+        name: '&f&l Online Players'
+        description: |-
+          &7 List of online player
+          &7 islands.
+      has_data:
+        name: '&f&l Has Data'
+        description: |-
+          &7 List of islands that
+          &7 have some data.
+      all_islands:
+        name: '&f&l All Islands'
+        description: '&7 List of all islands.'
+      search:
+        name: '&f&l Search'
+        description: |-
+          &7 Search for a specific
+          &7 value.
+        search: '&b Value: [value]'
+      material-icon:
+        name: '&f&l [material]'
+      all_players:
+        name: '&f&l All Players'
+        description: '&7 List of all players.'
+      online_players:
+        name: '&f&l Online Players'
+        description: '&7 List of online players.'
+    tips:
+      click-to-open: '&e Click &7 to open.'
+      click-to-change: '&e Click &7 to change.'
+      click-to-wipe: '&e Click &7 to wipe.'
+      click-to-manage: '&e Click &7 to manage.'
+      click-to-add: '&e Click &7 to add.'
+      click-to-remove: '&e Click &7 to remove.'
+      click-to-set: '&e Click &7 to set.'
+      click-to-next: '&e Click &7 for next.'
+      click-to-previous: '&e Click &7 for previous.'
+      click-to-quit: '&e Click &7 to quit.'
+      click-to-return: '&e Click &7 to return.'
+      click-to-warp: '&e Click &7 to warp.'
+      click-to-enable: '&e Click &7 to enable.'
+      click-to-disable: '&e Click &7 to disable.'
+      click-to-view: '&e Click &7 to view.'
+      left-click-to-edit: '&e Left Click &7 to edit.'
+      right-click-to-clear: '&e Right Click &7 to clear.'
+      shift-click-to-remove: '&e Shift Click &7 to remove.'
+      click-to-cancel: '&e Click &7 to cancel.'
+      click-to-select: '&e Click &7 to select.'
+    types:
+      likes: Likes
+      dislikes: Dislikes
+      rank: Rank
+      stars: Stars
+  errors:
+    not-on-island: '&c You must be on the island to run this command!'
+    your-island: '&c You cannot add a like or dislike to your own island!'
+    top-is-empty: '&c Sorry, there is no one in the rankings!'
+    database-error: '&c Sorry, there was some error with database. Cannot find your
+      island data.'
+    not-enough-money: '&c Sorry, you do not have enough credits in your account.'
+    no-data-about-island: '&c There is no data about this island.'
+    no-data-about-your-island: '&c There is no data about your island.'
+  conversations:
+    confirm-string: true, on, yes, confirm, y, valid, correct
+    deny-string: false, off, no, deny, n, invalid, incorrect
+    cancel-string: cancel
+    exit-string: cancel, exit, quit
+    cancelled: '&c Conversation cancelled!'
+    prefix: '&l&6 [BentoBox]: &r'
+    numeric-only: '&c The given [value] is not a number!'
+    not-valid-value: '&c The given number [value] is not valid. It must be larger
+      than [min] and smaller than [max]!'
+    write-search: '&e Please enter a search value. (Write ''cancel'' to exit)'
+    search-updated: '&a Search value updated.'
+    input-number: '&e Please enter a number in chat.'
+    confirm-island-data-deletion: '&e Confirm that you want to delete all user data
+      from the database for [gamemode].'
+    user-data-removed: '&a Success, all user data for [gamemode] was removed!'
+    add-like: '&a You liked [name]''s island.'
+    player-add-like: '&a [name] liked your island.'
+    remove-like: '&c You removed your like from [name]''s island.'
+    player-remove-like: '&c [name] removed their like from your island.'
+    add-dislike: '&c You disliked [name]''s island.'
+    player-add-dislike: '&c [name] disliked your island.'
+    remove-dislike: '&a You remove your dislike from [name]''s island.'
+    player-remove-dislike: '&a [name] removed their dislike from your island.'
+    add-stars: '&a You added [number] stars to [name]''s island.'
+    player-add-stars: '&a [name] added [number] stars your island.'
+    remove-stars: '&c You remove your stars from [name]''s island.'
+    player-remove-stars: '&c [name] removed their stars from your island.'
