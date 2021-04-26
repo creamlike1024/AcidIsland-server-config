@@ -1,0 +1,469 @@
+biomes:
+  gui:
+    title:
+      admin:
+        main-gui: '&6管理員菜單'
+        edit: '&6編輯地形 [biome]'
+        settings: '&6組件設置'
+        edit-list: '&6可編輯的地形菜單'
+        remove-list: '&6可删除的地形菜單'
+        user-list: '&6選擇玩家'
+        confirm-title: '&6確認操作'
+        manage-numbers: '&6管理號碼'
+        select-biome: '&6選擇地形'
+        toggle-environment: '&6切換地形'
+        edit-text-fields: '&6編輯介紹'
+        select-block: '&6Select A Material'
+      biomes-choose: '&6選擇地形'
+      mode-choose: '&6選擇更新模式'
+    buttons:
+      admin:
+        settings: 設定
+        import: 導入
+        remove: 删除地形
+        edit: 編輯地形
+        add: 添加地形
+        change: 修改用戶地形
+        change-biome: 地形
+        name: 顯示名稱
+        icon: 圖標
+        order: 順序
+        description: 介紹
+        deployment: 允許運行
+        required-permissions: 所需權限
+        required-level: 所需等級
+        required-money: 所需金錢
+        advanced-menu: 地形菜單
+        default-mode: 默認更新模式
+        default-size: 默認大小
+        visibility-mode: 地形的可見性
+        line-length: Lore的長度
+        biomes-lore: 地形Lore
+        cooldown: 冷却
+        reset-biomes: 重置事件
+        use-protection-range: 使用保護範圍
+        toggle-user-list: 切換玩家列表
+        save: 保存
+        cancel: 取消
+        input: 輸入
+        accept: Accept
+        set-mode: =
+        increase-mode: +
+        reduce-mode: '-'
+        multiply-mode: '*'
+        number: '[number]'
+        add-string: 添加字符串
+        clear: 清除
+        remove-empty: 删除空欄
+        input-mode: 輸入模式
+        value: 值
+      value: '當前值: [number]'
+      increase: 增加 [number]
+      decrease: 减少 [number]
+      set: 設置值爲 [number]
+      accept: 接受
+      decline: 拒絕
+      information: 信息
+      return: 返回
+      previous: 上一頁
+      next: 下一頁
+    descriptions:
+      admin:
+        settings: 編輯插件設置
+        import: 從配置文件的biomes.yml中導入地形。右鍵單擊啓用/取消覆蓋模式
+        remove: 删除某個地形
+        edit: 編輯某個地形
+        add: 添加一個地形選項
+        change: 修改某個玩家的地形
+        change-biome: 修改該項目所生成的地形
+        required-permissions: 修改生成該地形所需要的權限組，如果玩家沒有權限組將不能使用該地形!
+        required-level: 需要島嶼達到幾級才可以使用該地形.|&c需要 Level 組件.
+        required-money: 需要多少金錢才可以使用該地形.|&c需要經濟插件.
+        name: 設置該地形的名稱
+        deployment: 允許/不允許玩家使用這個地形(如果不允許玩家將無法在地形菜單中看到該地形項目)
+        icon: 設置該地形的圖標
+        description: 修改該地形的介紹
+        order: 修改該地形的順序.
+        advanced-menu: 允許玩家打開地形菜單幷對島嶼地形進行修改
+        default-mode: 允許玩家修改島嶼地形的更新模式(如果不允許玩家使用島嶼菜單將啓動菜單中的默認設定)
+        default-size: 允許玩家修改島嶼地形的更新大小(如果不允許玩家使用島嶼菜單將啓動菜單中的默認設定)
+        visibility-mode: 允許玩家修改地形可見性
+        line-length: 允許自動編輯介紹lore長度
+        biomes-lore: 允許修改lore消息中的哪些元素將被顯示。|檢查config以獲得更多信息。
+        cooldown: 允許開啓地形修改冷却系統，玩家將會在冷却時間過後才可以再次修改地形
+        reset-biomes: 如果有具有地形許可的玩家離開島嶼，將允許/不允許地形重置
+        use-protection-range: 允許修改地形更新後受島嶼保護範圍的限制(如果不允許則使用島嶼大小上限作爲範圍)
+        toggle-user-list: 可以在此菜單中修改玩家的地形
+        save: 保存當前設定幷且返回上一級菜單
+        cancel: 取消修改幷且返回上一級菜單
+        input: 允許在AnvilGUI中寫入數字
+        set-mode: 切換到設置模式，將當前值設置爲單擊的數字。
+        increase-mode: 切換到增加模式，通過點擊的數字增加當前值。
+        reduce-mode: 切換到减少模式，該模式將通過單擊的數字减少當前值。
+        multiply-mode: 切換到乘法模式，該模式將當前值乘以點擊的數字。
+        click-to-edit: '&4單擊此處編輯輸入。'
+        edit-text-line: '&6 編輯信息!'
+        add-text-line: '&6 添加新的信息!'
+        input-mode: 在聊天和鐵砧輸入模式之間切換。
+        selected: '&6Material is Selected'
+      update-mode:
+        island: 島嶼
+        chunk: 區塊
+        range: 範圍
+        undefined: 未定義
+      visibility-mode:
+        info: 修改你可以看到的地形
+        all: All &r- 列出所有地形
+        deployed: Deployed - 列出已部署的地形
+        accessible: Accessible - 列出可以訪問的地形
+        toggleable: Toggleable - 地形菜單中的可切換按鈕
+      view-mode:
+        online: 在綫
+        in-world: 在這個世界
+        with-island: 以及島嶼
+      current-value: '當前值: [value]'
+      enabled: 允許
+      disabled: 不允許
+      permission: ' - [permission]'
+      information: 如果您接受此更改，我們將使用[mode]模式將您的島嶼地形更改爲[biome]，範圍爲[range]。
+    questions:
+      prefix: '&2[SERVER]: '
+      admin:
+        number: Write a number in chat and press enter to accept it and press enter.
+        name: Write a friendly name for given biome.
+        uniqueID: Write object unique name and press enter.
+    biomes-description:
+      biome-name: 'MineCraft地形: [value]'
+      required-money: '價格: [value]'
+      required-island-level: '最低島嶼等級: [value]'
+      required-permissions: '權限:'
+  commands:
+    admin:
+      add:
+        description: 你可以通過該指令創建一個島嶼地形(該地形將以島嶼默認設置作爲基礎)
+        parameters: '[id]'
+      edit:
+        description: 你可以通過該指令修改<id> 的屬性. 僅允許編輯現有屬性.
+        parameters: <id> <property> <new_value>
+      help:
+        description: 你可以通過該指令查詢更多關于插件的指令
+        parameters: ''
+      import:
+        description: 你可以通過該指令導入biomes.yml文件中的地形設置
+        parameters: '[overwrite]'
+      set:
+        description: 你可以通過該指令修改玩家 <player> 的島嶼地形. <type> 和 <size> 可以選擇不輸入.
+        parameters: <player> <biome> [<type>] [<size>]
+      settings:
+        description: 你可以通過該指令修改地形組件的基礎設置
+        parameters: <property> <new_value>
+      migrate:
+        description: This method allows to migrate biomes data that refers to current
+          game mode world to storage format.
+        parameters: ''
+    user:
+      help:
+        description: 你可以通過該菜單修改地形
+        parameters: ''
+      info:
+        description: 你可以通過該指令查看島嶼地形的信息
+        parameters: <biome>
+      set:
+        description: 你可以通過該指令設置<biome>于自己的島嶼. <type> 和 <size> 可以選擇不輸入.
+        parameters: <biome> [<type>] [<size>]
+  errors:
+    unique-id: '&唯一ID &d[id]&c 無效'
+    too-many-arguments: '&c參數過多。請檢查幫助!'
+    missing-arguments: '&c缺少命令參數。 請檢查幫助!'
+    unknown-argument: '&c未知的命令參數。 請檢查幫助！'
+    incorrect-range: '&c給定的數字 &d''[number]''&c 無效. 該數字必須是整數.'
+    incorrect-mode: '&c給定的值 &d''[mode]''&c 無效. 有效值必須爲 ''ISLAND'', ''CHUNK'' 或者 ''SQUARE''.'
+    incorrect-icon: '&c給定圖標 &d''[icon]''&c 無法分析. 請嘗試其他圖標'
+    incorrect-biome: '&c給定地形 &d''[biome]''&c 無法在minecraft中查找. 請使用正確的地形名稱.'
+    incorrect-parameter: '&c給定屬性 &d''[property]''&c 爲未定義地形.'
+    incorrect-boolean: '&c給定的值 &d''[boolean]''&c 不是布爾值. 改值必須是 ''true'' 或者 ''false''.'
+    incorrect-visibility: '&c給定值 &d''[mode]''&c 無效.'
+    incorrect-object: '&c無法找到具體給定ID的地形 &d''[biome]''.'
+    no-biomes: '&c該世界不允許使用地形'
+    no-biomes-admin: '&c該世界不允許使用地形! 你需要使用 &5/[command] &c加入地形!'
+    missing-user: '&c用戶未定義.'
+    missing-biome: '&c地形未定義'
+    wrong-icon: '&c給定材料 &6[value]&c 無法分析爲ItemStack.'
+    no-biomes-for-you: '&c不幸的是，找不到任何可以使用的生物群系。'
+    not-valid-integer: '&c給定整數 "[value]" 無效!|該數值必須在 [min] 和 [max]之間.'
+    not-a-integer: '&c給定值 "[value]" 不是整數!'
+    not-on-island: '&c你不在島上。'
+    not-enough-money: '&c你沒有足够的金錢，修改該地形需要金錢 $[number]'
+    not-enough-level: '&c你的島嶼等級過低，修改該地形需要島嶼等級爲 [number]'
+    admin-not-on-island: '&c你不在 [user] 的島上.'
+    disabled: '&c目前這個地形已被禁用.'
+    missing-permission: '&c使用此地形需要 &6[permission]&c 權限. 不過你幷沒有該權限.'
+    no-file: '&c無法找到biomes.yml'
+    no-load: '&c導入地形時出現錯誤: [message]!'
+    load-biome: '&c無法加載地形 ''[biome]'' 因爲它沒有在Minecraft中定義。使用正確的生物群系名稱。'
+    no-rank: '&c你沒有足够等級做到這一點'
+  information:
+    header: '地形: [name]'
+    type: '  類別: [type]'
+    description: '  介紹: [description]'
+    level: '  等級: [level]'
+    cost: '  價格: [cost]'
+    permission: '  權限組: [permission]'
+  messages:
+    admin:
+      migrate-start: '&2Start migrating biomes addon data.'
+      migrate-end: '&2Biomes addon data is updated to new format.'
+      migrate-not: '&2All data is valid.'
+    saved: '&d地形 [biome] 已保存.'
+    biome-created: '&d使用uniqueID創建的新Biome對象: [id]'
+    saved-config: 組件設定已更新
+    biome-removed: 删除島嶼地形 = '[biome]'
+    update-start: '&e地形更新開始...'
+    update-done: '&6[biome]&r&e 成功更新'
+    skipping: 跳過[biome] 導入.
+    overwriting: 覆蓋 [biome].
+    imported: '[biome] 成功島嶼.'
+    import-count: 島嶼地形導入結束. 成功導入 [number] 個地形.
+protection:
+  flags:
+    BIOMES_ISLAND_PROTECTION:
+      description: |-
+        &5&o切換到誰可以
+        &5&o改變島嶼地形
+      name: 地形保護
+    BIOMES_WORLD_PROTECTION:
+      description: |-
+        &5&o这将允许/禁止
+        &5&o玩家在岛屿
+        &5&o修改地形
+        &5&o的需求.
+      name: 地形限制
+      hint: 島外不允許改變島嶼地形！
+锘縝iomes:
+  gui:
+    title:
+      admin:
+        main-gui: '&6绠＄悊鍝¤彍鍠�'
+        edit: '&6绶ㄨ集鍦板舰 [biome]'
+        settings: '&6绲勪欢瑷疆'
+        edit-list: '&6鍙法杓殑鍦板舰鑿滃柈'
+        remove-list: '&6鍙垹闄ょ殑鍦板舰鑿滃柈'
+        user-list: '&6閬告搰鐜╁'
+        confirm-title: '&6纰鸿獚鎿嶄綔'
+        manage-numbers: '&6绠＄悊铏熺⒓'
+        select-biome: '&6閬告搰鍦板舰'
+        toggle-environment: '&6鍒囨彌鍦板舰'
+        edit-text-fields: '&6绶ㄨ集浠嬬垂'
+        select-block: '&6Select A Material'
+      biomes-choose: '&6閬告搰鍦板舰'
+      mode-choose: '&6閬告搰鏇存柊妯″紡'
+    buttons:
+      admin:
+        settings: 瑷畾
+        import: 灏庡叆
+        remove: 鍒犻櫎鍦板舰
+        edit: 绶ㄨ集鍦板舰
+        add: 娣诲姞鍦板舰
+        change: 淇敼鐢ㄦ埗鍦板舰
+        change-biome: 鍦板舰
+        name: 椤ず鍚嶇ū
+        icon: 鍦栨
+        order: 闋嗗簭
+        description: 浠嬬垂
+        deployment: 鍏佽ū閬嬭
+        required-permissions: 鎵�闇�娆婇檺
+        required-level: 鎵�闇�绛夌礆
+        required-money: 鎵�闇�閲戦將
+        advanced-menu: 鍦板舰鑿滃柈
+        default-mode: 榛樿獚鏇存柊妯″紡
+        default-size: 榛樿獚澶у皬
+        visibility-mode: 鍦板舰鐨勫彲瑕嬫��
+        line-length: Lore鐨勯暦搴�
+        biomes-lore: 鍦板舰Lore
+        cooldown: 鍐峰嵈
+        reset-biomes: 閲嶇疆浜嬩欢
+        use-protection-range: 浣跨敤淇濊绡勫湇
+        toggle-user-list: 鍒囨彌鐜╁鍒楄〃
+        save: 淇濆瓨
+        cancel: 鍙栨秷
+        input: 杓稿叆
+        accept: Accept
+        set-mode: =
+        increase-mode: +
+        reduce-mode: '-'
+        multiply-mode: '*'
+        number: '[number]'
+        add-string: 娣诲姞瀛楃涓�
+        clear: 娓呴櫎
+        remove-empty: 鍒犻櫎绌烘瑒
+        input-mode: 杓稿叆妯″紡
+        value: 鍊�
+      value: '鐣跺墠鍊�: [number]'
+      increase: 澧炲姞 [number]
+      decrease: 鍑忓皯 [number]
+      set: 瑷疆鍊肩埐 [number]
+      accept: 鎺ュ彈
+      decline: 鎷掔禃
+      information: 淇℃伅
+      return: 杩斿洖
+      previous: 涓婁竴闋�
+      next: 涓嬩竴闋�
+    descriptions:
+      admin:
+        settings: 绶ㄨ集鎻掍欢瑷疆
+        import: 寰為厤缃枃浠剁殑biomes.yml涓皫鍏ュ湴褰€�傚彸閸靛柈鎿婂晸鐢�/鍙栨秷瑕嗚搵妯″紡
+        remove: 鍒犻櫎鏌愬�嬪湴褰�
+        edit: 绶ㄨ集鏌愬�嬪湴褰�
+        add: 娣诲姞涓�鍊嬪湴褰㈤伕闋�
+        change: 淇敼鏌愬�嬬帺瀹剁殑鍦板舰
+        change-biome: 淇敼瑭查爡鐩墍鐢熸垚鐨勫湴褰�
+        required-permissions: 淇敼鐢熸垚瑭插湴褰㈡墍闇�瑕佺殑娆婇檺绲勶紝濡傛灉鐜╁娌掓湁娆婇檺绲勫皣涓嶈兘浣跨敤瑭插湴褰�!
+        required-level: 闇�瑕佸扯宥奸仈鍒板咕绱氭墠鍙互浣跨敤瑭插湴褰�.|&c闇�瑕� Level 绲勪欢.
+        required-money: 闇�瑕佸灏戦噾閷㈡墠鍙互浣跨敤瑭插湴褰�.|&c闇�瑕佺稉婵熸彃浠�.
+        name: 瑷疆瑭插湴褰㈢殑鍚嶇ū
+        deployment: 鍏佽ū/涓嶅厑瑷辩帺瀹朵娇鐢ㄩ�欏�嬪湴褰�(濡傛灉涓嶅厑瑷辩帺瀹跺皣鐒℃硶鍦ㄥ湴褰㈣彍鍠腑鐪嬪埌瑭插湴褰㈤爡鐩�)
+        icon: 瑷疆瑭插湴褰㈢殑鍦栨
+        description: 淇敼瑭插湴褰㈢殑浠嬬垂
+        order: 淇敼瑭插湴褰㈢殑闋嗗簭.
+        advanced-menu: 鍏佽ū鐜╁鎵撻枊鍦板舰鑿滃柈骞峰皪宄跺都鍦板舰閫茶淇敼
+        default-mode: 鍏佽ū鐜╁淇敼宄跺都鍦板舰鐨勬洿鏂版ā寮�(濡傛灉涓嶅厑瑷辩帺瀹朵娇鐢ㄥ扯宥艰彍鍠皣鍟撳嫊鑿滃柈涓殑榛樿獚瑷畾)
+        default-size: 鍏佽ū鐜╁淇敼宄跺都鍦板舰鐨勬洿鏂板ぇ灏�(濡傛灉涓嶅厑瑷辩帺瀹朵娇鐢ㄥ扯宥艰彍鍠皣鍟撳嫊鑿滃柈涓殑榛樿獚瑷畾)
+        visibility-mode: 鍏佽ū鐜╁淇敼鍦板舰鍙鎬�
+        line-length: 鍏佽ū鑷嫊绶ㄨ集浠嬬垂lore闀峰害
+        biomes-lore: 鍏佽ū淇敼lore娑堟伅涓殑鍝簺鍏冪礌灏囪椤ず銆倈妾㈡煡config浠ョ嵅寰楁洿澶氫俊鎭��
+        cooldown: 鍏佽ū闁嬪晸鍦板舰淇敼鍐峰嵈绯荤当锛岀帺瀹跺皣鏈冨湪鍐峰嵈鏅傞枔閬庡緦鎵嶅彲浠ュ啀娆′慨鏀瑰湴褰�
+        reset-biomes: 濡傛灉鏈夊叿鏈夊湴褰㈣ū鍙殑鐜╁闆㈤枊宄跺都锛屽皣鍏佽ū/涓嶅厑瑷卞湴褰㈤噸缃�
+        use-protection-range: 鍏佽ū淇敼鍦板舰鏇存柊寰屽彈宄跺都淇濊绡勫湇鐨勯檺鍒�(濡傛灉涓嶅厑瑷卞墖浣跨敤宄跺都澶у皬涓婇檺浣滅埐绡勫湇)
+        toggle-user-list: 鍙互鍦ㄦ鑿滃柈涓慨鏀圭帺瀹剁殑鍦板舰
+        save: 淇濆瓨鐣跺墠瑷畾骞蜂笖杩斿洖涓婁竴绱氳彍鍠�
+        cancel: 鍙栨秷淇敼骞蜂笖杩斿洖涓婁竴绱氳彍鍠�
+        input: 鍏佽ū鍦ˋnvilGUI涓鍏ユ暩瀛�
+        set-mode: 鍒囨彌鍒拌ō缃ā寮忥紝灏囩暥鍓嶅�艰ō缃埐鍠搳鐨勬暩瀛椼��
+        increase-mode: 鍒囨彌鍒板鍔犳ā寮忥紝閫氶亷榛炴搳鐨勬暩瀛楀鍔犵暥鍓嶅�笺��
+        reduce-mode: 鍒囨彌鍒板噺灏戞ā寮忥紝瑭叉ā寮忓皣閫氶亷鍠搳鐨勬暩瀛楀噺灏戠暥鍓嶅�笺��
+        multiply-mode: 鍒囨彌鍒颁箻娉曟ā寮忥紝瑭叉ā寮忓皣鐣跺墠鍊间箻浠ラ粸鎿婄殑鏁稿瓧銆�
+        click-to-edit: '&4鍠搳姝よ檿绶ㄨ集杓稿叆銆�'
+        edit-text-line: '&6 绶ㄨ集淇℃伅!'
+        add-text-line: '&6 娣诲姞鏂扮殑淇℃伅!'
+        input-mode: 鍦ㄨ亰澶╁拰閻电牕杓稿叆妯″紡涔嬮枔鍒囨彌銆�
+        selected: '&6Material is Selected'
+      update-mode:
+        island: 宄跺都
+        chunk: 鍗�濉�
+        range: 绡勫湇
+        undefined: 鏈畾缇�
+      visibility-mode:
+        info: 淇敼浣犲彲浠ョ湅鍒扮殑鍦板舰
+        all: All &r- 鍒楀嚭鎵�鏈夊湴褰�
+        deployed: Deployed - 鍒楀嚭宸查儴缃茬殑鍦板舰
+        accessible: Accessible - 鍒楀嚭鍙互瑷晱鐨勫湴褰�
+        toggleable: Toggleable - 鍦板舰鑿滃柈涓殑鍙垏鎻涙寜閳�
+      view-mode:
+        online: 鍦ㄧ东
+        in-world: 鍦ㄩ�欏�嬩笘鐣�
+        with-island: 浠ュ強宄跺都
+      current-value: '鐣跺墠鍊�: [value]'
+      enabled: 鍏佽ū
+      disabled: 涓嶅厑瑷�
+      permission: ' - [permission]'
+      information: 濡傛灉鎮ㄦ帴鍙楁鏇存敼锛屾垜鍊戝皣浣跨敤[mode]妯″紡灏囨偍鐨勫扯宥煎湴褰㈡洿鏀圭埐[biome]锛岀瘎鍦嶇埐[range]銆�
+    questions:
+      prefix: '&2[SERVER]: '
+      admin:
+        number: Write a number in chat and press enter to accept it and press enter.
+        name: Write a friendly name for given biome.
+        uniqueID: Write object unique name and press enter.
+    biomes-description:
+      biome-name: 'MineCraft鍦板舰: [value]'
+      required-money: '鍍规牸: [value]'
+      required-island-level: '鏈�浣庡扯宥肩瓑绱�: [value]'
+      required-permissions: '娆婇檺:'
+  commands:
+    admin:
+      add:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠ゅ壍寤轰竴鍊嬪扯宥煎湴褰�(瑭插湴褰㈠皣浠ュ扯宥奸粯瑾嶈ō缃綔鐖插熀绀�)
+        parameters: '[id]'
+      edit:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠や慨鏀�<id> 鐨勫爆鎬�. 鍍呭厑瑷辩法杓従鏈夊爆鎬�.
+        parameters: <id> <property> <new_value>
+      help:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠ゆ煡瑭㈡洿澶氶棞浜庢彃浠剁殑鎸囦护
+        parameters: ''
+      import:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠ゅ皫鍏iomes.yml鏂囦欢涓殑鍦板舰瑷疆
+        parameters: '[overwrite]'
+      set:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠や慨鏀圭帺瀹� <player> 鐨勫扯宥煎湴褰�. <type> 鍜� <size> 鍙互閬告搰涓嶈几鍏�.
+        parameters: <player> <biome> [<type>] [<size>]
+      settings:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠や慨鏀瑰湴褰㈢祫浠剁殑鍩虹瑷疆
+        parameters: <property> <new_value>
+      migrate:
+        description: This method allows to migrate biomes data that refers to current
+          game mode world to storage format.
+        parameters: ''
+    user:
+      help:
+        description: 浣犲彲浠ラ�氶亷瑭茶彍鍠慨鏀瑰湴褰�
+        parameters: ''
+      info:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠ゆ煡鐪嬪扯宥煎湴褰㈢殑淇℃伅
+        parameters: <biome>
+      set:
+        description: 浣犲彲浠ラ�氶亷瑭叉寚浠よō缃�<biome>浜庤嚜宸辩殑宄跺都. <type> 鍜� <size> 鍙互閬告搰涓嶈几鍏�.
+        parameters: <biome> [<type>] [<size>]
+  errors:
+    unique-id: '&鍞竴ID &d[id]&c 鐒℃晥'
+    too-many-arguments: '&c鍙冩暩閬庡銆傝珛妾㈡煡骞姪!'
+    missing-arguments: '&c缂哄皯鍛戒护鍙冩暩銆� 璜嬫鏌ュ公鍔�!'
+    unknown-argument: '&c鏈煡鐨勫懡浠ゅ弮鏁搞�� 璜嬫鏌ュ公鍔╋紒'
+    incorrect-range: '&c绲﹀畾鐨勬暩瀛� &d''[number]''&c 鐒℃晥. 瑭叉暩瀛楀繀闋堟槸鏁存暩.'
+    incorrect-mode: '&c绲﹀畾鐨勫�� &d''[mode]''&c 鐒℃晥. 鏈夋晥鍊煎繀闋堢埐 ''ISLAND'', ''CHUNK''
+      鎴栬�� ''SQUARE''.'
+    incorrect-icon: '&c绲﹀畾鍦栨 &d''[icon]''&c 鐒℃硶鍒嗘瀽. 璜嬪槜瑭﹀叾浠栧湒妯�'
+    incorrect-biome: '&c绲﹀畾鍦板舰 &d''[biome]''&c 鐒℃硶鍦╩inecraft涓煡鎵�. 璜嬩娇鐢ㄦ纰虹殑鍦板舰鍚嶇ū.'
+    incorrect-parameter: '&c绲﹀畾灞�� &d''[property]''&c 鐖叉湭瀹氱京鍦板舰.'
+    incorrect-boolean: '&c绲﹀畾鐨勫�� &d''[boolean]''&c 涓嶆槸甯冪埦鍊�. 鏀瑰�煎繀闋堟槸 ''true'' 鎴栬��
+      ''false''.'
+    incorrect-visibility: '&c绲﹀畾鍊� &d''[mode]''&c 鐒℃晥.'
+    incorrect-object: '&c鐒℃硶鎵惧埌鍏烽珨绲﹀畾ID鐨勫湴褰� &d''[biome]''.'
+    no-biomes: '&c瑭蹭笘鐣屼笉鍏佽ū浣跨敤鍦板舰'
+    no-biomes-admin: '&c瑭蹭笘鐣屼笉鍏佽ū浣跨敤鍦板舰! 浣犻渶瑕佷娇鐢� &5/[command] &c鍔犲叆鍦板舰!'
+    missing-user: '&c鐢ㄦ埗鏈畾缇�.'
+    missing-biome: '&c鍦板舰鏈畾缇�'
+    wrong-icon: '&c绲﹀畾鏉愭枡 &6[value]&c 鐒℃硶鍒嗘瀽鐖睮temStack.'
+    no-biomes-for-you: '&c涓嶅垢鐨勬槸锛屾壘涓嶅埌浠讳綍鍙互浣跨敤鐨勭敓鐗╃兢绯汇��'
+    not-valid-integer: '&c绲﹀畾鏁存暩 "[value]" 鐒℃晥!|瑭叉暩鍊煎繀闋堝湪 [min] 鍜� [max]涔嬮枔.'
+    not-a-integer: '&c绲﹀畾鍊� "[value]" 涓嶆槸鏁存暩!'
+    not-on-island: '&c浣犱笉鍦ㄥ扯涓娿��'
+    not-enough-money: '&c浣犳矑鏈夎冻澶熺殑閲戦將锛屼慨鏀硅┎鍦板舰闇�瑕侀噾閷� $[number]'
+    not-enough-level: '&c浣犵殑宄跺都绛夌礆閬庝綆锛屼慨鏀硅┎鍦板舰闇�瑕佸扯宥肩瓑绱氱埐 [number]'
+    admin-not-on-island: '&c浣犱笉鍦� [user] 鐨勫扯涓�.'
+    disabled: '&c鐩墠閫欏�嬪湴褰㈠凡琚鐢�.'
+    missing-permission: '&c浣跨敤姝ゅ湴褰㈤渶瑕� &6[permission]&c 娆婇檺. 涓嶉亷浣犲狗娌掓湁瑭叉瑠闄�.'
+    no-file: '&c鐒℃硶鎵惧埌biomes.yml'
+    no-load: '&c灏庡叆鍦板舰鏅傚嚭鐝鹃尟瑾�: [message]!'
+    load-biome: '&c鐒℃硶鍔犺級鍦板舰 ''[biome]'' 鍥犵埐瀹冩矑鏈夊湪Minecraft涓畾缇┿�備娇鐢ㄦ纰虹殑鐢熺墿缇ょ郴鍚嶇ū銆�'
+    no-rank: '&c浣犳矑鏈夎冻澶熺瓑绱氬仛鍒伴�欎竴榛�'
+  information:
+    header: '鍦板舰: [name]'
+    type: '  椤炲垾: [type]'
+    description: '  浠嬬垂: [description]'
+    level: '  绛夌礆: [level]'
+    cost: '  鍍规牸: [cost]'
+    permission: '  娆婇檺绲�: [permission]'
+  messages:
+    admin:
+      migrate-start: '&2Start migrating biomes addon data.'
+      migrate-end: '&2Biomes addon data is updated to new format.'
+      migrate-not: '&2All data is valid.'
+    saved: '&d鍦板舰 [biome] 宸蹭繚瀛�.'
+    biome-created: '&d浣跨敤uniqueID鍓靛缓鐨勬柊Biome灏嶈薄: [id]'
+    saved-config: 绲勪欢瑷畾宸叉洿鏂�
+    biome-removed: 鍒犻櫎宄跺都鍦板舰 = '[biome]'
+    update-start: '&e鍦板舰鏇存柊闁嬪...'
+    update-done: '&6[biome]&r&e 鎴愬姛鏇存柊'
+    skipping: 璺抽亷[biome] 灏庡叆.
+    overwriting: 瑕嗚搵 [biome].
+    imported: '[biome] 鎴愬姛宄跺都.'
+    import-count: 宄跺都鍦板舰灏庡叆绲愭潫. 鎴愬姛灏庡叆 [number] 鍊嬪湴褰�.

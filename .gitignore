@@ -3,13 +3,14 @@ logs
 world
 world_nether
 world_the_end
+acidisland*
 .console_history
 plugins/*.jar
 plugins/bStats
 plugins/Essentials/userdata
 plugins/Essentials/warps
 plugins/BentoBox/addons
-plugins/BentoBox/database
+plugins/BentoBox/database*
 *.jar
 banned-ips.json
 banned-players.json
