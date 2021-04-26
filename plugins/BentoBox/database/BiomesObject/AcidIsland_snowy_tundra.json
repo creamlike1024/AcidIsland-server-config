@@ -1,0 +1,16 @@
+{
+  "biome": "SNOWY_TUNDRA",
+  "deployed": true,
+  "friendlyName": "&e寒冷的苔原",
+  "description": [
+    "§f寒冷的冬天来了！"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SNOWBALL\n",
+  "order": 0,
+  "requiredLevel": 0,
+  "requiredCost": 100.0,
+  "requiredPermissions": [],
+  "world": "acidisland_world",
+  "environment": "NORMAL",
+  "uniqueId": "AcidIsland_snowy_tundra"
+}

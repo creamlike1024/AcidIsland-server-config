@@ -1,0 +1,34 @@
+{
+  "uniqueId": "AcidIsland_elite",
+  "friendlyName": "§9精英",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n",
+  "world": "acidisland_world",
+  "order": 7,
+  "waiverAmount": 1,
+  "unlockMessage": "&f恭喜 - 你解锁了 §9精英 &f等级！",
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_SWORD\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      LOOT_BONUS_MOBS: 3\n      DAMAGE_ALL: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BOW\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      ARROW_FIRE: 1\n      ARROW_INFINITE: 1\n      ARROW_DAMAGE: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ELYTRA\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: TRIDENT\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+  ],
+  "rewardExperience": 8670,
+  "rewardMoney": 0,
+  "rewardCommands": [
+    "lp user [player] permission set haidao.rw.jy"
+  ],
+  "challenges": [
+    "AcidIsland_villagerbreeder",
+    "AcidIsland_irongolemfarm",
+    "AcidIsland_alchemist",
+    "AcidIsland_collectfluorite",
+    "AcidIsland_visitend",
+    "AcidIsland_diamondage",
+    "AcidIsland_glassmaker",
+    "AcidIsland_stewmaker",
+    "AcidIsland_mushroomfarm",
+    "AcidIsland_engineer",
+    "AcidIsland_acidduke"
+  ]
+}

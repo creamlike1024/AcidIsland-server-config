@@ -1,0 +1,27 @@
+{
+  "uniqueId": "AcidIsland_ntermediate",
+  "friendlyName": "&e中级",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLD_INGOT\n",
+  "world": "acidisland_world",
+  "order": 5,
+  "waiverAmount": 1,
+  "unlockMessage": "&f恭喜 - 你解锁了 &e中级 &f等级！",
+  "rewardText": "",
+  "rewardItems": [],
+  "rewardExperience": 0,
+  "rewardMoney": 0,
+  "rewardCommands": [
+    "lp user [player] permission set haidao.rw.zj"
+  ],
+  "challenges": [
+    "AcidIsland_breadmaker",
+    "AcidIsland_carrotfarm",
+    "AcidIsland_beetrootfarm",
+    "AcidIsland_potatofarm",
+    "AcidIsland_seedbank",
+    "AcidIsland_itsaparty",
+    "AcidIsland_slimefarm",
+    "AcidIsland_expert",
+    "AcidIsland_waterzoo"
+  ]
+}

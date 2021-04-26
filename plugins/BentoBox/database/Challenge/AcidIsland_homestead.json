@@ -1,0 +1,66 @@
+{
+  "uniqueId": "AcidIsland_homestead",
+  "friendlyName": "建立家园",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f建造一个房子, 包含:",
+    "  &c◆ &f木门,床,书架,",
+    "  &c◆ &f工作台,熔炉,玻璃,",
+    "  &c◆ &f火把 每种至少一个",
+    "  &c◆ &f你需要在所有方块10格内"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHITE_BED\n",
+  "order": -1,
+  "challengeType": "ISLAND",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_advanced",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "GLASS": 1,
+        "BOOKSHELF": 1,
+        "WHITE_BED": 1,
+        "FURNACE": 1,
+        "TORCH": 1,
+        "CRAFTING_TABLE": 1,
+        "OAK_DOOR": 1
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: JUKEBOX\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSIC_DISC_WAIT\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LAPIS_BLOCK\n  amount: 10\n"
+  ],
+  "rewardExperience": 100,
+  "rewardMoney": 100,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

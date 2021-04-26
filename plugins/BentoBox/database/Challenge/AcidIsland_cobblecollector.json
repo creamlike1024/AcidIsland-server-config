@@ -1,0 +1,54 @@
+{
+  "uniqueId": "AcidIsland_cobblecollector",
+  "friendlyName": "&f(&6！&f)&a圆石收藏家",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f建造刷石机并使用它获得1组圆石"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COBBLESTONE\n",
+  "order": 1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_novice",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COBBLESTONE\n  amount: 64\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRAVEL\n  amount: 4\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_SAPLING\n  amount: 4\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 10,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 50,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRAVEL\n"
+  ],
+  "repeatMoneyReward": 1,
+  "repeatRewardCommands": []
+}

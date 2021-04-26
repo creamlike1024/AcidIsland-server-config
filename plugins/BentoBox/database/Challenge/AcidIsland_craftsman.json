@@ -1,0 +1,51 @@
+{
+  "uniqueId": "AcidIsland_craftsman",
+  "friendlyName": "&f(&6£¡&f)&c´ó¹ú¹¤½³",
+  "deployed": true,
+  "description": [],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_BLOCK\n",
+  "order": -1,
+  "challengeType": "OTHER",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_purgatory",
+  "requirements": {
+    "class": "OtherRequirements",
+    "parameters": {
+      "requiredExperience": 0,
+      "takeExperience": false,
+      "requiredMoney": 0.0,
+      "takeMoney": false,
+      "requiredIslandLevel": 5000,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OBSIDIAN\n  amount: 10\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 10\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 50,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

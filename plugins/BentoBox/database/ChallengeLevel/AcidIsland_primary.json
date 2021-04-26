@@ -1,0 +1,28 @@
+{
+  "uniqueId": "AcidIsland_primary",
+  "friendlyName": "&b初级",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_INGOT\n",
+  "world": "acidisland_world",
+  "order": 4,
+  "waiverAmount": 1,
+  "unlockMessage": "&f恭喜 - 你解锁了 &b初级 &f等级！",
+  "rewardText": "",
+  "rewardItems": [],
+  "rewardExperience": 0,
+  "rewardMoney": 0,
+  "rewardCommands": [
+    "lp user [player] permission set haidao.rw.cj"
+  ],
+  "challenges": [
+    "AcidIsland_treecutter",
+    "AcidIsland_melonmaker",
+    "AcidIsland_pumpkinmaker",
+    "AcidIsland_angler",
+    "AcidIsland_fisherman",
+    "AcidIsland_seedcollector",
+    "AcidIsland_competent",
+    "AcidIsland_itsamonsterparty",
+    "AcidIsland_stewmaker",
+    "AcidIsland_milkcollector"
+  ]
+}

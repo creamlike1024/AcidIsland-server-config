@@ -1,0 +1,60 @@
+{
+  "uniqueId": "AcidIsland_treecutter",
+  "friendlyName": "&f(&6！&f)&a伐木工人",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f建造一个树场",
+    "  &c◆ &f并收集下列物品"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_LOG\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_primary",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_LOG\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_LOG\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SPRUCE_LOG\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BIRCH_LOG\n  amount: 16\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WOLF_SPAWN_EGG\n"
+  ],
+  "rewardExperience": 75,
+  "rewardMoney": 75,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "2 红石粉, 1 铁矿石",
+  "maxTimes": 20,
+  "repeatExperienceReward": 15,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

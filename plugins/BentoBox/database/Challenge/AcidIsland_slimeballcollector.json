@@ -1,0 +1,53 @@
+{
+  "uniqueId": "AcidIsland_slimeballcollector",
+  "friendlyName": "&f(&6！&f)&a粘液球收集者",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f拥有64个粘液球"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SLIME_BALL\n",
+  "order": 3,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_purgatory",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SLIME_BALL\n  amount: 64\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 27\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 100,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 9\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

@@ -1,0 +1,61 @@
+{
+  "uniqueId": "AcidIsland_ironage",
+  "friendlyName": "&f(&6！&f)&a铁器时代",
+  "deployed": true,
+  "description": [
+    "&c &c &c◆ &f全套铁质工具盒全套铁质盔甲"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_INGOT\n",
+  "order": 4,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_AXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_HOE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_PICKAXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_SHOVEL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_SWORD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_BOOTS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_LEGGINGS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_CHESTPLATE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_HELMET\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 4\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 20,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

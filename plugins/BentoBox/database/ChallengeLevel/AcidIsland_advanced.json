@@ -1,0 +1,37 @@
+{
+  "uniqueId": "AcidIsland_advanced",
+  "friendlyName": "§a高级",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD\n",
+  "world": "acidisland_world",
+  "order": 6,
+  "waiverAmount": 1,
+  "unlockMessage": "&f恭喜 - 你解锁了 §c高级 &f等级！",
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_HELMET\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_CHESTPLATE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_LEGGINGS\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_BOOTS\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      PROTECTION_FALL: 4\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n"
+  ],
+  "rewardExperience": 200,
+  "rewardMoney": 100,
+  "rewardCommands": [
+    "lp user [player] permission set haidao.rw.gj"
+  ],
+  "challenges": [
+    "AcidIsland_farmer",
+    "AcidIsland_baker",
+    "AcidIsland_homestead",
+    "AcidIsland_cookiemaker",
+    "AcidIsland_enderpearls",
+    "AcidIsland_snowgolemfarm",
+    "AcidIsland_animalfarm",
+    "AcidIsland_myprecious",
+    "AcidIsland_pioneer",
+    "AcidIsland_grinder",
+    "AcidIsland_ironage",
+    "AcidIsland_chef",
+    "AcidIsland_advanced",
+    "AcidIsland_visitnether"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "biome": "SWAMP",
+  "deployed": true,
+  "friendlyName": "&e沼泽",
+  "description": [
+    "§f低洼、潮湿的生物群系！"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PAPER\n",
+  "order": 0,
+  "requiredLevel": 0,
+  "requiredCost": 100.0,
+  "requiredPermissions": [],
+  "world": "acidisland_world",
+  "environment": "NORMAL",
+  "uniqueId": "AcidIsland_swamp"
+}

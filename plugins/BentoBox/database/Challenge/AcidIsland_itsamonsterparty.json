@@ -1,0 +1,63 @@
+{
+  "uniqueId": "AcidIsland_itsamonsterparty",
+  "friendlyName": "§f(§6！§f)§c怪物派对",
+  "deployed": true,
+  "description": [
+    "  §c◆ §f开一场派对> ",
+    "  §c◆ §f所有的怪物都被邀请到了!",
+    "  §c◆ §f在你的周围10格内",
+    "  §c◆ §f要有每一种敌对生物(主世界生成)"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SKELETON_SKULL\n",
+  "order": -1,
+  "challengeType": "ISLAND",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_primary",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {},
+      "removeBlocks": false,
+      "requiredEntities": {
+        "CREEPER": 1,
+        "SKELETON": 1,
+        "SPIDER": 1,
+        "ZOMBIE": 1,
+        "ENDERMAN": 1
+      },
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SKELETON_SKULL\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ZOMBIE_HEAD\n  amount: 2\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PLAYER_HEAD\n  amount: 2\n"
+  ],
+  "rewardExperience": 400,
+  "rewardMoney": 200,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

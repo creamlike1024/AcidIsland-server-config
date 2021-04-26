@@ -1,0 +1,31 @@
+{
+  "uniqueId": "AcidIsland_purgatory",
+  "friendlyName": "&c¡∂”¸",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHERITE_INGOT\n",
+  "world": "acidisland_world",
+  "order": 8,
+  "waiverAmount": 1,
+  "unlockMessage": "&fπßœ≤ - ƒ„Ω‚À¯¡À &c¡∂”¸ &fµ»º∂£°",
+  "rewardText": "",
+  "rewardItems": [],
+  "rewardExperience": 0,
+  "rewardMoney": 0,
+  "rewardCommands": [
+    "lp user [player] permission set haidao.rw.ly"
+  ],
+  "challenges": [
+    "AcidIsland_dj",
+    "AcidIsland_flowercollector",
+    "AcidIsland_woolcollector",
+    "AcidIsland_icefarmer",
+    "AcidIsland_slimeballcollector",
+    "AcidIsland_trader",
+    "AcidIsland_goldage",
+    "AcidIsland_terracottamaker",
+    "AcidIsland_witherkiller",
+    "AcidIsland_beaconator",
+    "AcidIsland_zoomaker",
+    "AcidIsland_enderkiller",
+    "AcidIsland_craftsman"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "biome": "OCEAN",
+  "deployed": true,
+  "friendlyName": "&e海洋",
+  "description": [
+    "§f现在你需要学习如何游泳."
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WATER_BUCKET\n",
+  "order": 0,
+  "requiredLevel": 0,
+  "requiredCost": 100.0,
+  "requiredPermissions": [],
+  "world": "acidisland_world",
+  "environment": "NORMAL",
+  "uniqueId": "AcidIsland_ocean"
+}

@@ -1,0 +1,52 @@
+{
+  "uniqueId": "AcidIsland_witherkiller",
+  "friendlyName": "&f(&6！&f)&a凋零杀手",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f手提凋零头，坐之王位！\n  &c◆ &f[拥有下界之星1颗]"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHER_STAR\n",
+  "order": 5,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_purgatory",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHER_STAR\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_BLOCK\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHULKER_BOX\n  amount: 2\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

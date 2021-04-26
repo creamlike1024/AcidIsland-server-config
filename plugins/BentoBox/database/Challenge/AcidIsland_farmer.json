@@ -1,0 +1,65 @@
+{
+  "uniqueId": "AcidIsland_farmer",
+  "friendlyName": "&f(&6！&f)&a农民",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f收割下列作物各一组:"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHEAT\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHEAT\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SUGAR\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MELON\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CARROT\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTATO\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CARVED_PUMPKIN\n  amount: 64\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COCOA_BEANS\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PIG_SPAWN_EGG\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COW_SPAWN_EGG\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CHICKEN_SPAWN_EGG\n"
+  ],
+  "rewardExperience": 75,
+  "rewardMoney": 75,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 100,
+  "repeatExperienceReward": 20,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COCOA_BEANS\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PIG_SPAWN_EGG\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COW_SPAWN_EGG\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CHICKEN_SPAWN_EGG\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

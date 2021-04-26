@@ -1,0 +1,54 @@
+{
+  "uniqueId": "AcidIsland_treefarm",
+  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaÖ²Ê÷Ô±",
+  "deployed": true,
+  "description": [
+    "  ¡ìc¡ô ¡ìfÖÖ10¸öÏðÊ÷Ê÷Ãç"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_SAPLING\n",
+  "order": 2,
+  "challengeType": "ISLAND",
+  "environment": [],
+  "removeWhenCompleted": true,
+  "level": "AcidIsland_novice",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "OAK_SAPLING": 10
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 20,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIRT\n  amount: 10\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

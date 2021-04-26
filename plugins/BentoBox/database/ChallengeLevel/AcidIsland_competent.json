@@ -1,0 +1,30 @@
+{
+  "uniqueId": "AcidIsland_competent",
+  "friendlyName": "§3入门",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BRICK\n",
+  "world": "acidisland_world",
+  "order": 2,
+  "waiverAmount": 1,
+  "unlockMessage": "&f恭喜 - 你解锁了 §3入门 &f等级！",
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIRT\n  amount: 16\n"
+  ],
+  "rewardExperience": 1395,
+  "rewardMoney": 500,
+  "rewardCommands": [
+    "lp user [player] permission set haidao.rw.rm"
+  ],
+  "challenges": [
+    "AcidIsland_chisedmaker",
+    "AcidIsland_crackedmaker",
+    "AcidIsland_stonesmelter",
+    "AcidIsland_papermaker",
+    "AcidIsland_cactuscollector",
+    "AcidIsland_treecollector",
+    "AcidIsland_melonfarm",
+    "AcidIsland_pumpkinfarm",
+    "AcidIsland_mushroomfarm",
+    "AcidIsland_eggcollector"
+  ]
+}

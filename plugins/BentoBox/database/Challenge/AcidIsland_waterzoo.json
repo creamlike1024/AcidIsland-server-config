@@ -1,0 +1,63 @@
+{
+  "uniqueId": "AcidIsland_waterzoo",
+  "friendlyName": "&f(&6！&f)&a海上乐园",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f在水里出现河豚.龟.章鱼\n  &c◆ &f热带鱼.海豚.鲑鱼.鳕鱼"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COD_BUCKET\n",
+  "order": 7,
+  "challengeType": "ISLAND",
+  "environment": [
+    "NORMAL"
+  ],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_ntermediate",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {},
+      "removeBlocks": false,
+      "requiredEntities": {
+        "SQUID": 1,
+        "TURTLE": 1,
+        "COD": 1,
+        "SALMON": 1,
+        "PUFFERFISH": 1,
+        "TROPICAL_FISH": 10,
+        "DOLPHIN": 1
+      },
+      "removeEntities": false,
+      "searchRadius": 20,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHULKER_BOX\n  amount: 2\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": false,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

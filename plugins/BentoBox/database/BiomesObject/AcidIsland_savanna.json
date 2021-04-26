@@ -1,0 +1,16 @@
+{
+  "biome": "SAVANNA",
+  "deployed": true,
+  "friendlyName": "&e热带草原",
+  "description": [
+    "§f我的马在哪里？"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRASS\n",
+  "order": 0,
+  "requiredLevel": 0,
+  "requiredCost": 100.0,
+  "requiredPermissions": [],
+  "world": "acidisland_world",
+  "environment": "NORMAL",
+  "uniqueId": "AcidIsland_savanna"
+}

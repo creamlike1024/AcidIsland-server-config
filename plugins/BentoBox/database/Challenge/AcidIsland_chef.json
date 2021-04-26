@@ -1,0 +1,64 @@
+{
+  "uniqueId": "AcidIsland_chef",
+  "friendlyName": "&f(&6！&f)&a厨师",
+  "deployed": true,
+  "description": [
+    "&c &c &c◆ &f集齐以下食物."
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CAKE\n",
+  "order": 6,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PUMPKIN_PIE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CARROT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_SALMON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_COD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: RABBIT_STEW\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_MUTTON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_RABBIT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_CHICKEN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BAKED_POTATO\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MUSHROOM_STEW\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COOKED_BEEF\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHULKER_BOX\n  amount: 2\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 10,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_ORE\n  amount: 2\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

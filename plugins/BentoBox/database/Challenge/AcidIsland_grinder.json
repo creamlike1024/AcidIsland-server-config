@@ -1,0 +1,60 @@
+{
+  "uniqueId": "AcidIsland_grinder",
+  "friendlyName": "&f(&6！&f)&a怪物猎人",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f腐肉64个、骨头32个、线32个\n  &c◆ &f箭32个、火药16个、蜘蛛眼5个"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BONE\n",
+  "order": 4,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ROTTEN_FLESH\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: STRING\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ARROW\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BONE\n  amount: 32\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GUNPOWDER\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SPIDER_EYE\n  amount: 5\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: FLINT\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 50,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n  amount: 4\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

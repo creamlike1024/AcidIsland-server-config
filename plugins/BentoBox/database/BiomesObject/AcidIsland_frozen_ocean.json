@@ -1,0 +1,16 @@
+{
+  "biome": "FROZEN_OCEAN",
+  "deployed": true,
+  "friendlyName": "&e冻洋",
+  "description": [
+    "可以生成北极熊、流浪者、鲑鱼、鱿鱼。"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ICE\n",
+  "order": -1,
+  "requiredLevel": 0,
+  "requiredCost": 100.0,
+  "requiredPermissions": [],
+  "world": "acidisland_world",
+  "environment": "NORMAL",
+  "uniqueId": "AcidIsland_frozen_ocean"
+}

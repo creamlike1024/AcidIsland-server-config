@@ -1,0 +1,19 @@
+{
+  "uniqueId": "AcidIsland_ordinary",
+  "friendlyName": "&4大师",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHER_STAR\n",
+  "world": "acidisland_world",
+  "order": 9,
+  "waiverAmount": 1,
+  "unlockMessage": "&f恭喜 - 你解锁了 §4精英 &f等级！",
+  "rewardText": "",
+  "rewardItems": [],
+  "rewardExperience": 0,
+  "rewardMoney": 0,
+  "rewardCommands": [
+    "lp user [player] permission set haidao.rw.ds"
+  ],
+  "challenges": [
+    "AcidIsland_elite"
+  ]
+}

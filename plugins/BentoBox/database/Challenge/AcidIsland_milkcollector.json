@@ -1,0 +1,55 @@
+{
+  "uniqueId": "AcidIsland_milkcollector",
+  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaÅ£ÄÌ³§",
+  "deployed": true,
+  "description": [
+    "  ¡ìc¡ô ¡ìfÓµÓÐ9Í°Å£ÄÌ"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MILK_BUCKET\n",
+  "order": 2,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_primary",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MILK_BUCKET\n  amount: 9\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BUCKET\n  amount: 9\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_INGOT\n  amount: 10\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 5,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BUCKET\n  amount: 9\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_INGOT\n  amount: 5\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

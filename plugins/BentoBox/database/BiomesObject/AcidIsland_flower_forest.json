@@ -1,0 +1,16 @@
+{
+  "biome": "FLOWER_FOREST",
+  "deployed": true,
+  "friendlyName": "&e花海",
+  "description": [
+    "§f你需要的所有花朵。"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POPPY\n",
+  "order": 0,
+  "requiredLevel": 0,
+  "requiredCost": 100.0,
+  "requiredPermissions": [],
+  "world": "acidisland_world",
+  "environment": "NORMAL",
+  "uniqueId": "AcidIsland_flower_forest"
+}

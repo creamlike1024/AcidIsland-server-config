@@ -1,0 +1,66 @@
+{
+  "uniqueId": "AcidIsland_alchemist",
+  "friendlyName": "§f(§6！§f)§a炼金术士",
+  "deployed": true,
+  "description": [
+    "&f &f &c◆ &eExtended &f延长",
+    "&f &f &c◆ &eUpgraded &f二级"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BREWING_STAND\n",
+  "order": 1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_elite",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_slow_falling\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_invisibility\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_poison\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_night_vision\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_regeneration\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_healing\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_harming\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_swiftness\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_fire_resistance\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_leaping\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:long_weakness\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_strength\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTION\n  meta:\n    ==: ItemMeta\n    meta-type: POTION\n    potion-type: minecraft:strong_slowness\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_ORE\n  amount: 4\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 20,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_ORE\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

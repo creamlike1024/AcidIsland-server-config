@@ -1,0 +1,51 @@
+{
+  "uniqueId": "AcidIsland_acidduke",
+  "friendlyName": "&f(&6£¡&f)&e´ó¹«¾ô",
+  "deployed": true,
+  "description": [],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_BLOCK\n",
+  "order": -1,
+  "challengeType": "OTHER",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_elite",
+  "requirements": {
+    "class": "OtherRequirements",
+    "parameters": {
+      "requiredExperience": 0,
+      "takeExperience": false,
+      "requiredMoney": 0.0,
+      "takeMoney": false,
+      "requiredIslandLevel": 1000,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n  amount: 15\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHULKER_SHELL\n  amount: 5\n"
+  ],
+  "rewardExperience": 250,
+  "rewardMoney": 250,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

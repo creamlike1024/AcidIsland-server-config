@@ -1,0 +1,68 @@
+{
+  "uniqueId": "AcidIsland_terracottamaker",
+  "friendlyName": "&f(&6！&f)&a陶瓷制造商",
+  "deployed": true,
+  "description": [
+    "&c &c &c◆ &f收集各色陶瓦8个."
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: TERRACOTTA\n",
+  "order": 4,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_purgatory",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: YELLOW_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LIGHT_BLUE_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ORANGE_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHITE_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAGENTA_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LIME_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: LIGHT_GRAY_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRAY_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PINK_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CYAN_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PURPLE_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BLUE_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BROWN_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GREEN_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: RED_TERRACOTTA\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BLACK_TERRACOTTA\n  amount: 8\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHULKER_BOX\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 20,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SHULKER_SHELL\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}

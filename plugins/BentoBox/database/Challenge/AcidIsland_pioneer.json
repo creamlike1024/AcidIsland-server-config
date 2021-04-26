@@ -1,0 +1,62 @@
+{
+  "uniqueId": "AcidIsland_pioneer",
+  "friendlyName": "&f(&6！&f)&a拓荒者",
+  "deployed": true,
+  "description": [
+    "  &c◆ &f制作一张地图并打开,",
+    "  &c◆ &f并收集以下物品"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAP\n",
+  "order": -1,
+  "challengeType": "INVENTORY",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "AcidIsland_advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHERRACK\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SOUL_SAND\n  amount: 16\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GHAST_TEAR\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAP\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COMPASS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CLOCK\n"
+      ],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "requiredPermissions": [],
+  "requiredBlocks": {},
+  "removeBlocks": false,
+  "requiredEntities": {},
+  "removeEntities": false,
+  "requiredItems": [],
+  "takeItems": true,
+  "requiredExperience": 0,
+  "takeExperience": false,
+  "requiredMoney": 0,
+  "takeMoney": false,
+  "requiredIslandLevel": 0,
+  "searchRadius": 10,
+  "rewardText": "",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POWERED_RAIL\n  amount: 32\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: RAIL\n  amount: 256\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OCELOT_SPAWN_EGG\n"
+  ],
+  "rewardExperience": 100,
+  "rewardMoney": 100,
+  "rewardCommands": [],
+  "repeatable": true,
+  "repeatRewardText": "",
+  "maxTimes": 100,
+  "repeatExperienceReward": 20,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n"
+  ],
+  "repeatMoneyReward": 0,
+  "repeatRewardCommands": []
+}
