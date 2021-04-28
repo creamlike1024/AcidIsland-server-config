@@ -35,7 +35,7 @@ acid:
     snow: false
     # Delay before acid or acid rain starts burning
     # This can give time for conduit power to kick in
-    delay: 0
+    delay: 1
     # Potion effects from going into acid water.
     # You can list multiple effects.
     # Available effects are:
