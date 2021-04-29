@@ -11,18 +11,17 @@
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-
-  glass:
-    delay: -1
-    items:
-      - grass 1 name:&4[草] lore:|一种植物|
   tools:
     delay: 10
     items:
-      - stonesword 1
-      - stoneshovel 1
-      - stonepickaxe 1
-      - stoneaxe 1
+#      - stonesword 1
+#      - stoneshovel 1
+#      - stonepickaxe 1
+#      - stoneaxe 1
+      - lhelm 1 color:255,255,255 name:萌新帽 lore:美好的一天~
+      - LAVA_BUCKET 1
+      - WATER_BUCKET 1
+      - bread 16
   dtools:
     delay: 600
     items:
