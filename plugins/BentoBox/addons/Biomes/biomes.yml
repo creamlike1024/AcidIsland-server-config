@@ -39,7 +39,7 @@ biomes:
   biomesList:
     ocean:
       friendlyName: 'Ocean'
-      description: '不适合游泳'
+      description: '游泳？还是算了'
       icon: 'water_bucket'
       islandLevel: 0
       environment: 'normal'
@@ -48,43 +48,43 @@ biomes:
       permission: []
     warm_ocean:
       friendlyName: 'Warm Ocean'
-      description: '虽然水很温暖，但不适合游泳'
+      description: '我的畜栏在哪里？'
       icon: 'tropical_fish'
       islandLevel: 0
       cost: 0
     plains:
       friendlyName: 'Plains'
-      description: '飞机场~'
+      description: '平平平'
       icon: 'grass_block'
       islandLevel: 0
       cost: 0
     desert:
       friendlyName: 'Desert'
-      description: '好处是不会下酸雨了'
+      description: '对于冰雪来说太热了！'
       icon: 'sand'
       islandLevel: 0
       cost: 0
     snowy_tundra:
       friendlyName: 'Cold Tundra'
-      description: '有毒的海水结冰了会变成有毒的冰块吗'
+      description: '寒冷的冬天来了！'
       icon: 'snowball'
       islandLevel: 0
       cost: 0
     savanna:
       friendlyName: 'Savanna'
-      description: '可以试试骑马与砍杀'
+      description: '我的马在哪里？'
       icon: 'grass'
       islandLevel: 0
       cost: 0
     forest:
       friendlyName: 'Forest'
-      description: '不要回复!不要回复!不要回复!'
+      description: '狼来了。'
       icon: 'spruce_sapling'
       islandLevel: 0
       cost: 0
     flower_forest:
       friendlyName: 'Flower Forest'
-      description: '希望没有传说之下那朵小花'
+      description: '有你需要的所有花朵。'
       icon: 'poppy'
       islandLevel: 0
       cost: 0
@@ -96,7 +96,7 @@ biomes:
       cost: 0
     SWAMP:
       friendlyName: '&e沼泽'
-      description: '&f好湿啊！'
+      description: '好湿啊！'
       icon: 'swamp'
       islandLevel: 0
       cost: 0
