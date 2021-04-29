@@ -740,7 +740,7 @@ economy-log-enabled: true
 economy-log-update-enabled: false
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.01
+minimum-pay-amount: 1
 
 # Enable this to block users who try to /pay another user which ignore them.
 pay-excludes-ignore-list: false
