@@ -28,7 +28,7 @@ acid:
       # Damage animals experience from acid
       animal: 3
       # Destroy items after this many seconds in acid. 0 = do not destroy items
-      item: 3
+      item: 0
     # Damage from acid rain (and snow, if toggled on).
     rain: 1
     # Damage from acid snow
