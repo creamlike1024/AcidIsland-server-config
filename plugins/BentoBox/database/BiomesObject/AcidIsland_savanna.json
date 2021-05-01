@@ -1,14 +1,14 @@
 {
   "biome": "SAVANNA",
   "deployed": true,
-  "friendlyName": "&eÈÈ´ø²İÔ­",
+  "friendlyName": "&eçƒ­å¸¦è‰åŸ",
   "description": [
-    "¡ìfÎÒµÄÂíÔÚÄÄÀï£¿"
+    "Â§oæˆ‘çš„é©¬åœ¨å“ªé‡Œï¼Ÿ"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRASS\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

@@ -1,14 +1,14 @@
 {
   "biome": "PLAINS",
   "deployed": true,
-  "friendlyName": "&e平原",
+  "friendlyName": "&e骞冲師",
   "description": [
-    "§f一望无际。"
+    "搂o骞冲钩骞筹紒"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRASS_BLOCK\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

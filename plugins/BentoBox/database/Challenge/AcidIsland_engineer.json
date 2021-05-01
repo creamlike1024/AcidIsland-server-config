@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_engineer",
-  "friendlyName": "&f(&6£¡&f)&aºìÊ¯¹¤³ÌÊ¦",
+  "friendlyName": "&f(&6ï¼&f)&açº¢çŸ³å·¥ç¨‹å¸ˆ",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÓµÓĞºìÊ¯Çı¶¯¸÷1¸ö"
+    "  &câ—† &fæ‹¥æœ‰çº¢çŸ³é©±åŠ¨å„1ä¸ª"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OBSERVER\n",
   "order": 6,

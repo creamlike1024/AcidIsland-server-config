@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_irongolemfarm",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaË¢Ìú³§",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aåˆ·é“å‚",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÉí±ßÓĞ5Ö»Ìú¿şÀÜ."
+    "  Â§câ—† Â§fèº«è¾¹æœ‰5åªé“å‚€å„¡."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_BLOCK\n",
   "order": 1,

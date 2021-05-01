@@ -1,14 +1,14 @@
 {
   "biome": "SNOWY_TUNDRA",
   "deployed": true,
-  "friendlyName": "&eº®ÀäµÄÌ¦Ô­",
+  "friendlyName": "&eå¯’å†·çš„è‹”åŸ",
   "description": [
-    "¡ìfº®ÀäµÄ¶¬ÌìÀ´ÁË£¡"
+    "Â§oå¯’å†·çš„å†¬å¤©æ¥äº†ï¼"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SNOWBALL\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

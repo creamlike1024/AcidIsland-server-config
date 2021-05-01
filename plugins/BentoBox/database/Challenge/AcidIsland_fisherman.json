@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_fisherman",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaÓæ·ò",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aæ¸”å¤«",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÓµÓĞ64Ö»÷¨Óã"
+    "  Â§câ—† Â§fæ‹¥æœ‰64åªé³•é±¼"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COD\n",
   "order": 4,

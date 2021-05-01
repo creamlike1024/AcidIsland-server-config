@@ -1,11 +1,11 @@
 {
   "uniqueId": "AcidIsland_purgatory",
-  "friendlyName": "&cÁ¶Óü",
+  "friendlyName": "&cç‚¼ç‹±",
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHERITE_INGOT\n",
   "world": "acidisland_world",
   "order": 8,
   "waiverAmount": 1,
-  "unlockMessage": "&f¹§Ï² - Äã½âËøÁË &cÁ¶Óü &fµÈ¼¶£¡",
+  "unlockMessage": "&fæ­å–œ - ä½ è§£é”äº† &cç‚¼ç‹± &fç­‰çº§ï¼",
   "rewardText": "",
   "rewardItems": [],
   "rewardExperience": 0,

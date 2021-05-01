@@ -124,7 +124,7 @@ world:
   offset-z: 0
   # Island height - Lowest is 5.
   # It is the y coordinate of the bedrock block in the schem.
-  island-height: 200
+  island-height: 50
   # Use your own world generator for this world.
   # In this case, the plugin will not generate anything.
   # /!\ This feature is experimental and might not work as expected or might not work at all.

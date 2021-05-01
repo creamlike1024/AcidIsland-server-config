@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_beetrootfarm",
-  "friendlyName": "&f(&6£¡&f)&aÌğ²Ë¸ùÅ©³¡",
+  "friendlyName": "&f(&6ï¼&f)&aç”œèœæ ¹å†œåœº",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÖÖÖ²16¸öÌğ²Ë¸ù"
+    "  &câ—† &fç§æ¤16ä¸ªç”œèœæ ¹"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BEETROOT\n",
   "order": 1,

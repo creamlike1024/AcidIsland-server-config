@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_villagerbreeder",
-  "friendlyName": "&f(&6£¡&f)&a´åÃñËÇÑøÔ±",
+  "friendlyName": "&f(&6ï¼&f)&aæ‘æ°‘é¥²å…»å‘˜",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÓµÓĞ10Ö»´åÃñ."
+    "  &câ—† &fæ‹¥æœ‰10åªæ‘æ°‘."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD_BLOCK\n",
   "order": 1,

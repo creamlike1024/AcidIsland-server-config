@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_papermaker",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaÔìÖ½»ú",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aé€ çº¸æœº",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÓµÓĞ32ÕÅÖ½"
+    "  Â§câ—† Â§fæ‹¥æœ‰32å¼ çº¸"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PAPER\n",
   "order": 3,

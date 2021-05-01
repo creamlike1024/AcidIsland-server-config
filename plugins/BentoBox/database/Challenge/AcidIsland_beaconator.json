@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_beaconator",
-  "friendlyName": "&f(&6£¡&f)&aĞÅ±ê¹¤³ÌÊ¦",
+  "friendlyName": "&f(&6ï¼&f)&aä¿¡æ ‡å·¥ç¨‹å¸ˆ",
   "deployed": true,
   "description": [
-    "  &c¡ô &f·ÅÖÃ164¸öÌú¿éºÍ1¸öĞÅ±ê"
+    "  &câ—† &fæ”¾ç½®164ä¸ªé“å—å’Œ1ä¸ªä¿¡æ ‡"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BEACON\n",
   "order": 6,

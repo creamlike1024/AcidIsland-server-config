@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_milkcollector",
-  "friendlyName": "║Лf(║Л6ё║║Лf)║ЛaеёдлЁ╖",
+  "friendlyName": "б╖f(б╖6О╪│б╖f)б╖aГ┴⌡Е╔╤Е▌┌",
   "deployed": true,
   "description": [
-    "  ║Лc║Т ║Лfс╣сп9м╟еёдл"
+    "  б╖cБ≈├ б╖fФ▀╔Ф°┴9Ф║╤Г┴⌡Е╔╤"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MILK_BUCKET\n",
   "order": 2,

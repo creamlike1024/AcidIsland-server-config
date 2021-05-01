@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_cobblecollector",
-  "friendlyName": "&f(&6£¡&f)&aÔ²Ê¯ÊÕ²Ø¼Ò",
+  "friendlyName": "&f(&6ï¼&f)&aåœ†çŸ³æ”¶è—å®¶",
   "deployed": true,
   "description": [
-    "  &c¡ô &f½¨ÔìË¢Ê¯»ú²¢Ê¹ÓÃËü»ñµÃ1×éÔ²Ê¯"
+    "  &câ—† &få»ºé€ åˆ·çŸ³æœºå¹¶ä½¿ç”¨å®ƒè·å¾—1ç»„åœ†çŸ³"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COBBLESTONE\n",
   "order": 1,

@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_slimefarm",
-  "friendlyName": "&f(&6£¡&f)&aÊ·À³Ä·ÄÁ³¡",
+  "friendlyName": "&f(&6ï¼&f)&aå²è±å§†ç‰§åœº",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÉí±ßÓĞ5¸öÊ·À³Ä·"
+    "  &câ—† &fèº«è¾¹æœ‰5ä¸ªå²è±å§†"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SLIME_BLOCK\n",
   "order": 1,

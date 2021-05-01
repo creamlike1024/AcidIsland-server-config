@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_treefarm",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaÖ²Ê÷Ô±",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aæ¤æ ‘å‘˜",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÖÖ10¸öÏğÊ÷Ê÷Ãç"
+    "  Â§câ—† Â§fç§10ä¸ªæ©¡æ ‘æ ‘è‹—"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_SAPLING\n",
   "order": 2,

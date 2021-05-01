@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_waterzoo",
-  "friendlyName": "&f(&6£¡&f)&aº£ÉÏÀÖÔ°",
+  "friendlyName": "&f(&6ï¼&f)&aæµ·ä¸Šä¹å›­",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÔÚË®Àï³öÏÖºÓëà.¹ê.ÕÂÓã\n  &c¡ô &fÈÈ´øÓã.º£ëà.öÙÓã.÷¨Óã"
+    "  &câ—† &fåœ¨æ°´é‡Œå‡ºç°æ²³è±š.é¾Ÿ.ç« é±¼\n  &câ—† &fçƒ­å¸¦é±¼.æµ·è±š.é²‘é±¼.é³•é±¼"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COD_BUCKET\n",
   "order": 7,

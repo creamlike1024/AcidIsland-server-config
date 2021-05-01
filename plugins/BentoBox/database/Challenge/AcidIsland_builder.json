@@ -1,10 +1,10 @@
 {
   "uniqueId": "AcidIsland_builder",
-  "friendlyName": "&f(&6£¡&f)&a½¨ÖşÊ¦",
+  "friendlyName": "&f(&6ï¼&f)&aå»ºç­‘å¸ˆ",
   "deployed": true,
   "description": [
-    "  &c¡ô &fº£µºµÈ¼¶´ïµ½10¼¶",
-    "  &c¡ô &e/ai level¼ÆËã."
+    "  &câ—† &fæµ·å²›ç­‰çº§è¾¾åˆ°10çº§",
+    "  &câ—† &e/ai levelè®¡ç®—."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_PLANKS\n",
   "order": -1,

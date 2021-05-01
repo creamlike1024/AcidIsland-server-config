@@ -1,11 +1,11 @@
 {
   "uniqueId": "AcidIsland_itsaparty",
-  "friendlyName": "&f(&6£¡&f)&aÅÉ¶Ô",
+  "friendlyName": "&f(&6ï¼&f)&aæ´¾å¯¹",
   "deployed": true,
   "description": [
-    "  &c¡ô &f¿ªÒ»³¡ÅÉ¶Ô!",
-    "  &c¡ô &fÑûÇëÄãµÄ5ÃûÅóÓÑ",
-    "  &c¡ô &fµ½µºÉÏÀ´Íæ"
+    "  &câ—† &få¼€ä¸€åœºæ´¾å¯¹!",
+    "  &câ—† &fé‚€è¯·ä½ çš„5åæœ‹å‹",
+    "  &câ—† &fåˆ°å²›ä¸Šæ¥ç©"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PUMPKIN_PIE\n",
   "order": -1,

@@ -1,11 +1,11 @@
 {
   "uniqueId": "AcidIsland_elite",
-  "friendlyName": "¡ì9¾«Ó¢",
+  "friendlyName": "Â§9ç²¾è‹±",
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n",
   "world": "acidisland_world",
   "order": 7,
   "waiverAmount": 1,
-  "unlockMessage": "&f¹§Ï² - Äã½âËøÁË ¡ì9¾«Ó¢ &fµÈ¼¶£¡",
+  "unlockMessage": "&fæ­å–œ - ä½ è§£é”äº† Â§9ç²¾è‹± &fç­‰çº§ï¼",
   "rewardText": "",
   "rewardItems": [
     "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_SWORD\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      LOOT_BONUS_MOBS: 3\n      DAMAGE_ALL: 5\n      DURABILITY: 3\n",

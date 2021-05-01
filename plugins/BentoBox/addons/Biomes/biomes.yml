@@ -1,16 +1,26 @@
 ##########################################################################################
-# Example biomes.yml file. This is the same format as ASkyBlock.
-# Use the biomes import command to import the biomes to your world.
-# For example: /bsbadmin biomes import
-# to overwrite previous biomes, use /bsbadmin biomes import overwrite
-# Once biomes are imported, you can edit them directly in the database folder.
+#
+#示例biomes.yml文件。这与askyblock的格式相同。
+##########################################################################################
+#有73个支持的Minecraft生物群系：
+#   ERODED_BADLANDS, MODIFIED_WOODED_BADLANDS_PLATEAU, MODIFIED_BADLANDS_PLATEAU
+#所有这些生物群系都可以加入生物群系。默认情况下，仅对
+#将添加Skyblock。
+##########################################################################################
+#
+#示例biomes.yml文件。这与askyblock的格式相同。
+#使用biomes导入命令将biomes导入您的世界。
+#例如：/bsbadmin biomes import
+#要覆盖以前的生物群系，请使用/bsbadmin biomes import overwrite
+#导入生物群落后，您可以直接在数据库文件夹中编辑它们.
+#
 ##########################################################################################
 # File format.
 # biomes:                                        # Internal Data Structure. DO NOT CHANGE!
 #   biomesList:                                  # Internal Data Structure. DO NOT CHANGE!
 #     BIOME_ID:                                  # Spigot BIOME TYPE. Valid values can be found in link below.
-#       friendlyName: 'Biome Display Name'       # String. Custom name for biome.
-#       description: 'Biome description'         # String. Some extra description in icon lore.
+#       friendlyName: '&eBiome Display Name'       # String. Custom name for biome.
+#       description: '&oBiome description'         # String. Some extra description in icon lore.
 #       icon: 'paper'                            # Spigot MATERIAL TYPE. Spigot Material that will be used. Adding ':NUMBER' allows to specify amount of elements.
 #       islandLevel: 0                           # Integer. Minimal island level for using this biome. Requires Level addon.
 #       environment: 'normal'                    # Spigot WORLD ENVIRONMENT TYPE. World environment value.
@@ -38,8 +48,8 @@
 biomes:
   biomesList:
     ocean:
-      friendlyName: 'Ocean'
-      description: '游泳？还是算了'
+      friendlyName: '&e海洋'
+      description: '&o游泳？还是算了！'
       icon: 'water_bucket'
       islandLevel: 0
       environment: 'normal'
@@ -47,56 +57,56 @@ biomes:
       order: 0
       permission: []
     warm_ocean:
-      friendlyName: 'Warm Ocean'
-      description: '我的畜栏在哪里？'
+      friendlyName: '&e温暖的海洋'
+      description: '&o我的畜栏在哪里？'
       icon: 'tropical_fish'
       islandLevel: 0
       cost: 0
     plains:
-      friendlyName: 'Plains'
-      description: '平平平'
+      friendlyName: '&e平原'
+      description: '&o平平平！'
       icon: 'grass_block'
       islandLevel: 0
       cost: 0
     desert:
-      friendlyName: 'Desert'
-      description: '对于冰雪来说太热了！'
-      icon: 'sand'
-      islandLevel: 0
-      cost: 0
+     friendlyName: '&e沙漠'
+     description: '&o对于冰雪来说太热了！'
+     icon: 'sand'
+     islandLevel: 0
+     cost: 0
     snowy_tundra:
-      friendlyName: 'Cold Tundra'
-      description: '寒冷的冬天来了！'
+      friendlyName: '&e寒冷的苔原'
+      description: '&o寒冷的冬天来了！'
       icon: 'snowball'
       islandLevel: 0
       cost: 0
     savanna:
-      friendlyName: 'Savanna'
-      description: '我的马在哪里？'
+      friendlyName: '&e热带草原'
+      description: '&o我的马在哪里？'
       icon: 'grass'
       islandLevel: 0
       cost: 0
     forest:
-      friendlyName: 'Forest'
-      description: '狼来了。'
+      friendlyName: '&e森林'
+      description: '&o狼来了。'
       icon: 'spruce_sapling'
       islandLevel: 0
       cost: 0
     flower_forest:
-      friendlyName: 'Flower Forest'
-      description: '有你需要的所有花朵。'
+      friendlyName: '&e花海'
+      description: '&o你需要的所有花朵。'
       icon: 'poppy'
       islandLevel: 0
       cost: 0
     jungle:
-      friendlyName: 'Jungle'
-      description: '我的雪人呢?'
+      friendlyName: '&e丛林'
+      description: '&o所有的冰雪都必须消失！'
       icon: 'cocoa_beans'
       islandLevel: 0
       cost: 0
     SWAMP:
       friendlyName: '&e沼泽'
-      description: '好湿啊！'
+      description: '&o低洼、潮湿的生物群系！'
       icon: 'swamp'
       islandLevel: 0
       cost: 0

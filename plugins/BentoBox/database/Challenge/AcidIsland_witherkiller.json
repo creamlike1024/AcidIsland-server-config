@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_witherkiller",
-  "friendlyName": "&f(&6£¡&f)&aµòÁãÉ±ÊÖ",
+  "friendlyName": "&f(&6ï¼&f)&aå‡‹é›¶æ€æ‰‹",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÊÖÌáµòÁãÍ·£¬×øÖ®ÍõÎ»£¡\n  &c¡ô &f[ÓµÓĞÏÂ½çÖ®ĞÇ1¿Å]"
+    "  &câ—† &fæ‰‹æå‡‹é›¶å¤´ï¼Œåä¹‹ç‹ä½ï¼\n  &câ—† &f[æ‹¥æœ‰ä¸‹ç•Œä¹‹æ˜Ÿ1é¢—]"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NETHER_STAR\n",
   "order": 5,

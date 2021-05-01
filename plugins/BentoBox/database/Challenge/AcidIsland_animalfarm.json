@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_animalfarm",
-  "friendlyName": "&f(&6£¡&f)&a¶¯ÎïÄÁ³¡",
+  "friendlyName": "&f(&6ï¼&f)&aåŠ¨ç‰©ç‰§åœº",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÓµÓĞ16¸ö²İ·½¿é.\n  &c¡ô &fÖí¡¢Å£¡¢¼¦¡¢Ñò¸÷2Ö»."
+    "  &câ—† &fæ‹¥æœ‰16ä¸ªè‰æ–¹å—.\n  &câ—† &fçŒªã€ç‰›ã€é¸¡ã€ç¾Šå„2åª."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRASS_BLOCK\n",
   "order": 2,

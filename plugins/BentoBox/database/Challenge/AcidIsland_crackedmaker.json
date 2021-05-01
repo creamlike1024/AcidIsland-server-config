@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_crackedmaker",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaÁÑÊ¯×©",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aè£‚çŸ³ç –",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÓµÓĞ64¸öÁÑÊ¯×©."
+    "  Â§câ—† Â§fæ‹¥æœ‰64ä¸ªè£‚çŸ³ç –."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CRACKED_STONE_BRICKS\n",
   "order": 4,

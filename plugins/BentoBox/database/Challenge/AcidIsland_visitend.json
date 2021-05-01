@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_visitend",
-  "friendlyName": "&f(&6£¡&f)&aÇ°ÍùÄ©µØ",
+  "friendlyName": "&f(&6ï¼&f)&aå‰å¾€æœ«åœ°",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÕ¾ÔÚÄ©µØÀï"
+    "  &câ—† &fç«™åœ¨æœ«åœ°é‡Œ"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: END_STONE\n",
   "order": 3,

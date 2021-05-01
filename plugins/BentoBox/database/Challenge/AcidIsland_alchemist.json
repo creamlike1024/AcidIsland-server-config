@@ -1,10 +1,10 @@
 {
   "uniqueId": "AcidIsland_alchemist",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaÁ¶½ğÊõÊ¿",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aç‚¼é‡‘æœ¯å£«",
   "deployed": true,
   "description": [
-    "&f &f &c¡ô &eExtended &fÑÓ³¤",
-    "&f &f &c¡ô &eUpgraded &f¶ş¼¶"
+    "&f &f &câ—† &eExtended &få»¶é•¿",
+    "&f &f &câ—† &eUpgraded &fäºŒçº§"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BREWING_STAND\n",
   "order": 1,

@@ -1,14 +1,14 @@
 {
   "biome": "JUNGLE",
   "deployed": true,
-  "friendlyName": "&e丛林",
+  "friendlyName": "&e涓涙灄",
   "description": [
-    "§f所有的冰雪都必须消失！"
+    "搂o鎵�鏈夌殑鍐伴洩閮藉繀椤绘秷澶憋紒"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COCOA_BEANS\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

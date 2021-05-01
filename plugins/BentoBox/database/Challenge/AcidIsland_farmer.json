@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_farmer",
-  "friendlyName": "&f(&6£¡&f)&aÅ©Ãñ",
+  "friendlyName": "&f(&6ï¼&f)&aå†œæ°‘",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÊÕ¸îÏÂÁĞ×÷Îï¸÷Ò»×é:"
+    "  &câ—† &fæ”¶å‰²ä¸‹åˆ—ä½œç‰©å„ä¸€ç»„:"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WHEAT\n",
   "order": -1,

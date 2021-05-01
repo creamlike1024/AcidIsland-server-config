@@ -1,14 +1,14 @@
 {
   "biome": "FROZEN_OCEAN",
   "deployed": true,
-  "friendlyName": "&e¶³Ñó",
+  "friendlyName": "&eå†»æ´‹",
   "description": [
-    "¿ÉÒÔÉú³É±±¼«ĞÜ¡¢Á÷ÀËÕß¡¢öÙÓã¡¢öÏÓã¡£"
+    "Â§oå¯ä»¥ç”ŸæˆåŒ—æç†Šã€æµæµªè€…ã€é²‘é±¼ã€é±¿é±¼ã€‚"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: ICE\n",
   "order": -1,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

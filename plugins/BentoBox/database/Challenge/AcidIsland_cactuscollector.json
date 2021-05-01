@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_cactuscollector",
-  "friendlyName": "&f(&6£¡&f)&aÏÉÈËÕÆ½»Ò×Ëù",
+  "friendlyName": "&f(&6ï¼&f)&aä»™äººæŒäº¤æ˜“æ‰€",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÓµÓĞ64¸öÏÉÈËÕÆ"
+    "  &câ—† &fæ‹¥æœ‰64ä¸ªä»™äººæŒ"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CACTUS\n",
   "order": 3,

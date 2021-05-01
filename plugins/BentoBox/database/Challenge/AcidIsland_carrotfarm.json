@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_carrotfarm",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaºúÂÜ²·Å©³¡",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aèƒ¡èåœå†œåœº",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÖÖÖ²16¸öºúÂÜ²·"
+    "  Â§câ—† Â§fç§æ¤16ä¸ªèƒ¡èåœ"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CARROT\n",
   "order": 1,

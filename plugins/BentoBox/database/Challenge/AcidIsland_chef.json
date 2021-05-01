@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_chef",
-  "friendlyName": "&f(&6£¡&f)&a³øÊ¦",
+  "friendlyName": "&f(&6ï¼&f)&aå¨å¸ˆ",
   "deployed": true,
   "description": [
-    "&c &c &c¡ô &f¼¯ÆëÒÔÏÂÊ³Îï."
+    "&c &c &câ—† &fé›†é½ä»¥ä¸‹é£Ÿç‰©."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: CAKE\n",
   "order": 6,

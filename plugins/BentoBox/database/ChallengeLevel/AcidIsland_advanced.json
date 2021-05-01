@@ -1,11 +1,11 @@
 {
   "uniqueId": "AcidIsland_advanced",
-  "friendlyName": "¡ìa¸ß¼¶",
+  "friendlyName": "Â§aé«˜çº§",
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD\n",
   "world": "acidisland_world",
   "order": 6,
   "waiverAmount": 1,
-  "unlockMessage": "&f¹§Ï² - Äã½âËøÁË ¡ìc¸ß¼¶ &fµÈ¼¶£¡",
+  "unlockMessage": "&fæ­å–œ - ä½ è§£é”äº† Â§cé«˜çº§ &fç­‰çº§ï¼",
   "rewardText": "",
   "rewardItems": [
     "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_HELMET\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n",

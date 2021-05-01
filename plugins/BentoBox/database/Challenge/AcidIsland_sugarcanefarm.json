@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_sugarcanefarm",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìa¸ÊÕáÅ©³¡",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aç”˜è”—å†œåœº",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÖÖÖ²32¸ö¸ÊÕá"
+    "  Â§câ—† Â§fç§æ¤32ä¸ªç”˜è”—"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SUGAR_CANE\n",
   "order": 2,

@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_potatofarm",
-  "friendlyName": "&f(&6£¡&f)&aÂíÁåÊíÅ©³¡",
+  "friendlyName": "&f(&6ï¼&f)&aé©¬é“ƒè–¯å†œåœº",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÖÖÖ²16¸öÂíÁåÊí"
+    "  &câ—† &fç§æ¤16ä¸ªé©¬é“ƒè–¯"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: POTATO\n",
   "order": 1,

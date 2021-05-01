@@ -1,11 +1,11 @@
 {
   "uniqueId": "AcidIsland_competent",
-  "friendlyName": "¡ì3ÈëÃÅ",
+  "friendlyName": "Â§3å…¥é—¨",
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BRICK\n",
   "world": "acidisland_world",
   "order": 2,
   "waiverAmount": 1,
-  "unlockMessage": "&f¹§Ï² - Äã½âËøÁË ¡ì3ÈëÃÅ &fµÈ¼¶£¡",
+  "unlockMessage": "&fæ­å–œ - ä½ è§£é”äº† Â§3å…¥é—¨ &fç­‰çº§ï¼",
   "rewardText": "",
   "rewardItems": [
     "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIRT\n  amount: 16\n"

@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_pumpkinmaker",
-  "friendlyName": "&f(&6£¡&f)&a¹ÏÅ©-ÄÏ¹Ï",
+  "friendlyName": "&f(&6ï¼&f)&aç“œå†œ-å—ç“œ",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÓµÓĞ32¸öÄÏ¹Ï(²»Òªµñ¿Ì£¡)"
+    "  &câ—† &fæ‹¥æœ‰32ä¸ªå—ç“œ(ä¸è¦é›•åˆ»ï¼)"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PUMPKIN\n",
   "order": 3,

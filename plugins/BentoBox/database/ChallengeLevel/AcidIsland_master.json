@@ -1,11 +1,11 @@
 {
   "uniqueId": "AcidIsland_ordinary",
-  "friendlyName": "&4´óÊ¦",
+  "friendlyName": "&4å¤§å¸ˆ",
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BOOK\n",
   "world": "acidisland_world",
   "order": 9,
   "waiverAmount": 1,
-  "unlockMessage": "&f¹§Ï² - Äã½âËøÁË &4´óÊ¦ &fµÈ¼¶£¡",
+  "unlockMessage": "&fæ­å–œ - ä½ è§£é”äº† &4å¤§å¸ˆ &fç­‰çº§ï¼",
   "rewardText": "",
   "rewardItems": [],
   "rewardExperience": 0,

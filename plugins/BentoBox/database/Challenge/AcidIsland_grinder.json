@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_grinder",
-  "friendlyName": "&f(&6£¡&f)&a¹ÖÎïÁÔÈË",
+  "friendlyName": "&f(&6ï¼&f)&aæ€ªç‰©çŒäºº",
   "deployed": true,
   "description": [
-    "  &c¡ô &f¸¯Èâ64¸ö¡¢¹ÇÍ·32¸ö¡¢Ïß32¸ö\n  &c¡ô &f¼ı32¸ö¡¢»ğÒ©16¸ö¡¢Ö©ÖëÑÛ5¸ö"
+    "  &câ—† &fè…è‚‰64ä¸ªã€éª¨å¤´32ä¸ªã€çº¿32ä¸ª\n  &câ—† &fç®­32ä¸ªã€ç«è¯16ä¸ªã€èœ˜è››çœ¼5ä¸ª"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BONE\n",
   "order": 4,

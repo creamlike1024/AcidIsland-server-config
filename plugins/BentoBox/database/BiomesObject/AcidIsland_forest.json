@@ -1,14 +1,14 @@
 {
   "biome": "FOREST",
   "deployed": true,
-  "friendlyName": "&eÉ­ÁÖ",
+  "friendlyName": "&eæ£®æ—",
   "description": [
-    "¡ìfÀÇÀ´ÁË¡£"
+    "Â§oç‹¼æ¥äº†ã€‚"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SPRUCE_SAPLING\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

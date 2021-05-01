@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_expert",
-  "friendlyName": "&f(&6£¡&f)&a×¨¼Òµº",
+  "friendlyName": "&f(&6ï¼&f)&aä¸“å®¶å²›",
   "deployed": true,
   "description": [
-    "  &c¡ô &fµºÓìµ½´ï100¼¶."
+    "  &câ—† &få²›å±¿åˆ°è¾¾100çº§."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GREEN_CONCRETE\n",
   "order": 6,

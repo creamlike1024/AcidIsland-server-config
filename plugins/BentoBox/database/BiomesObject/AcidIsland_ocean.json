@@ -1,14 +1,14 @@
 {
   "biome": "OCEAN",
   "deployed": true,
-  "friendlyName": "&e海洋",
+  "friendlyName": "&e娴锋磱",
   "description": [
-    "§f现在你需要学习如何游泳."
+    "搂o娓告吵锛熻繕鏄畻浜嗭紒"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: WATER_BUCKET\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

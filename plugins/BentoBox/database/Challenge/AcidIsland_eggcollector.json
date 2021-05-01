@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_eggcollector",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìa¼¦µ°´óºà",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aé¸¡è›‹å¤§äº¨",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÊÕ¼¯32¸ö¼¦µ°."
+    "  Â§câ—† Â§fæ”¶é›†32ä¸ªé¸¡è›‹."
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EGG\n",
   "order": 2,

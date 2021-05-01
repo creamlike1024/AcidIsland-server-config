@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_slimeballcollector",
-  "friendlyName": "&f(&6£¡&f)&aÕ³ÒºÇòÊÕ¼¯Õß",
+  "friendlyName": "&f(&6ï¼&f)&aç²˜æ¶²çƒæ”¶é›†è€…",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÓµÓĞ64¸öÕ³ÒºÇò"
+    "  &câ—† &fæ‹¥æœ‰64ä¸ªç²˜æ¶²çƒ"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SLIME_BALL\n",
   "order": 3,

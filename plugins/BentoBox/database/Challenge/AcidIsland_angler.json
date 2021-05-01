@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_angler",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìaµöÓãÕß",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aé’“é±¼è€…",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÓµÓĞ32Ö»öÙÓã"
+    "  Â§câ—† Â§fæ‹¥æœ‰32åªé²‘é±¼"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SALMON\n",
   "order": 4,

@@ -1,14 +1,14 @@
 {
   "biome": "SWAMP",
   "deployed": true,
-  "friendlyName": "&eÕÓÔó",
+  "friendlyName": "&eæ²¼æ³½",
   "description": [
-    "¡ìfµÍÍİ¡¢³±ÊªµÄÉúÎïÈºÏµ£¡"
+    "Â§oä½æ´¼ã€æ½®æ¹¿çš„ç”Ÿç‰©ç¾¤ç³»ï¼"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PAPER\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

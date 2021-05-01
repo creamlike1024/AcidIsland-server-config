@@ -1,14 +1,14 @@
 {
   "biome": "WARM_OCEAN",
   "deployed": true,
-  "friendlyName": "&eÎÂÅ¯µÄº£Ñó",
+  "friendlyName": "&eæ¸©æš–çš„æµ·æ´‹",
   "description": [
-    "¡ìfÎÒµÄĞóÀ¸ÔÚÄÄÀï£¿"
+    "Â§oæˆ‘çš„ç•œæ åœ¨å“ªé‡Œï¼Ÿ"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: TROPICAL_FISH\n",
   "order": 0,
   "requiredLevel": 0,
-  "requiredCost": 100.0,
+  "requiredCost": 0,
   "requiredPermissions": [],
   "world": "acidisland_world",
   "environment": "NORMAL",

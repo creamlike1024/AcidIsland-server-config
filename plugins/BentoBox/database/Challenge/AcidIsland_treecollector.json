@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_treecollector",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìa·¥Ä¾¹¤",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aä¼æœ¨å·¥",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfÓµÓĞ32¸öÏğÄ¾"
+    "  Â§câ—† Â§fæ‹¥æœ‰32ä¸ªæ©¡æœ¨"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_LOG\n",
   "order": 4,

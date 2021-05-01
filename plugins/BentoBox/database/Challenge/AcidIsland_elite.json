@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_elite",
-  "friendlyName": "¡ìf(¡ì6£¡¡ìf)¡ìa¾«Ó¢µº",
+  "friendlyName": "Â§f(Â§6ï¼Â§f)Â§aç²¾è‹±å²›",
   "deployed": true,
   "description": [
-    "  ¡ìc¡ô ¡ìfµºÓì´ïµ½10000¼¶£¡"
+    "  Â§câ—† Â§få²›å±¿è¾¾åˆ°10000çº§ï¼"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MAGENTA_CONCRETE\n",
   "order": 10,

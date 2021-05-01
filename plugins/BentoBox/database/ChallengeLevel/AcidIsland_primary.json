@@ -1,11 +1,11 @@
 {
   "uniqueId": "AcidIsland_primary",
-  "friendlyName": "&b³õ¼¶",
+  "friendlyName": "&båˆçº§",
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_INGOT\n",
   "world": "acidisland_world",
   "order": 4,
   "waiverAmount": 1,
-  "unlockMessage": "&f¹§Ï² - Äã½âËøÁË &b³õ¼¶ &fµÈ¼¶£¡",
+  "unlockMessage": "&fæ­å–œ - ä½ è§£é”äº† &båˆçº§ &fç­‰çº§ï¼",
   "rewardText": "",
   "rewardItems": [],
   "rewardExperience": 0,

@@ -1,10 +1,10 @@
 {
   "uniqueId": "AcidIsland_treecutter",
-  "friendlyName": "&f(&6£¡&f)&a·¥Ä¾¹¤ÈË",
+  "friendlyName": "&f(&6ï¼&f)&aä¼æœ¨å·¥äºº",
   "deployed": true,
   "description": [
-    "  &c¡ô &f½¨ÔìÒ»¸öÊ÷³¡",
-    "  &c¡ô &f²¢ÊÕ¼¯ÏÂÁĞÎïÆ·"
+    "  &câ—† &få»ºé€ ä¸€ä¸ªæ ‘åœº",
+    "  &câ—† &få¹¶æ”¶é›†ä¸‹åˆ—ç‰©å“"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: OAK_LOG\n",
   "order": -1,
@@ -48,7 +48,7 @@
   "rewardMoney": 75,
   "rewardCommands": [],
   "repeatable": true,
-  "repeatRewardText": "2 ºìÊ¯·Û, 1 Ìú¿óÊ¯",
+  "repeatRewardText": "2 çº¢çŸ³ç²‰, 1 é“çŸ¿çŸ³",
   "maxTimes": 20,
   "repeatExperienceReward": 15,
   "repeatItemReward": [

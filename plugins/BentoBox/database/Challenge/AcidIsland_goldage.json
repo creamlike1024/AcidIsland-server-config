@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_goldage",
-  "friendlyName": "&f(&6£¡&f)&a»Æ½ğÊ±´ú",
+  "friendlyName": "&f(&6ï¼&f)&aé»„é‡‘æ—¶ä»£",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÖÆ×÷»Æ½ğÈ«Ì×¹¤¾ßºÍÈ«Ì×¿ø¼×"
+    "  &câ—† &fåˆ¶ä½œé»„é‡‘å…¨å¥—å·¥å…·å’Œå…¨å¥—ç›”ç”²"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLD_INGOT\n",
   "order": 4,

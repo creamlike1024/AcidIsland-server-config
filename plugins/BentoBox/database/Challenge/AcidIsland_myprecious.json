@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_myprecious",
-  "friendlyName": "&f(&6£¡&f)&aÎÒµÄ´ó±¦±´",
+  "friendlyName": "&f(&6ï¼&f)&aæˆ‘çš„å¤§å®è´",
   "deployed": true,
   "description": [
-    "  &c¡ô &f½¨ÔìÒ»Ö»Ìú¿şÀÜ"
+    "  &câ—† &få»ºé€ ä¸€åªé“å‚€å„¡"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: NAME_TAG\n",
   "order": -1,

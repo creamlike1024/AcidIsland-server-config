@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_melonmaker",
-  "friendlyName": "&f(&6£¡&f)&a¹ÏÅ©-Î÷¹Ï",
+  "friendlyName": "&f(&6ï¼&f)&aç“œå†œ-è¥¿ç“œ",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÓµÓĞ16¸öÎ÷¹Ï(²»ÊÇÎ÷¹ÏÆ¬£¡)"
+    "  &câ—† &fæ‹¥æœ‰16ä¸ªè¥¿ç“œ(ä¸æ˜¯è¥¿ç“œç‰‡ï¼)"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: MELON\n",
   "order": 3,

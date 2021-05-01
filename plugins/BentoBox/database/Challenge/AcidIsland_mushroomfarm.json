@@ -1,9 +1,9 @@
 {
   "uniqueId": "AcidIsland_mushroomfarm",
-  "friendlyName": "&f(&6£¡&f)&aÄ¢¹½Å©³¡",
+  "friendlyName": "&f(&6ï¼&f)&aè˜‘è‡å†œåœº",
   "deployed": true,
   "description": [
-    "  &c¡ô &fÖÖÖ²5¸öºìÉ«Ä¢¹½ºÍ×ØÉ«Ä¢¹½"
+    "  &câ—† &fç§æ¤5ä¸ªçº¢è‰²è˜‘è‡å’Œæ£•è‰²è˜‘è‡"
   ],
   "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BROWN_MUSHROOM\n",
   "order": 2,
